@@ -1,6 +1,6 @@
 # python_interface
 *
-* 那些“1_”开头的是根据要求写的一些测试文件，包括```entity```,```relation```,```pool```,```attr,histoty```
+* 那些“1_”开头的是根据要求写的一些测试文件，包括```entity```,```relation```,```pool```,```attr```,```histoty```
 * 
 * 其他的文件```all_relation_and IDS``` 和 ```attr_entity_IDS_start_from XX``` 是调用```generate_train_set.py```后生成的ID文件，用来做校验
 * 
