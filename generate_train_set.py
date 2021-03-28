@@ -41,15 +41,17 @@ def generate_htr(entity_path=None,relation_path=None,pool_path=None,user_hist=No
         else:
             item_ids.append(int(temp[0]))
     USER_COUNT=len(user_ids)
+    save_pickle(USER_COUNT, './pickle/USER_COUNT.pkl')
     ITEM_COUNT=len(item_ids)
+    save_pickle(ITEM_COUNT, './pickle/ITEM_COUNT.pkl')
     user_trans_ids_dict= transfor_originial_id_to_new_id(user_ids)
     item_trans_ids_dict = transfor_originial_id_to_new_id(item_ids)
 
     output_item_trans_id=dict()
     for key in item_trans_ids_dict.keys():
         output_item_trans_id[key]=item_trans_ids_dict[key]+USER_COUNT
-    save_file(user_trans_ids_dict,'./new_user_id_with_original_id.txt')
-    save_file(output_item_trans_id, './new_item_id_with_original_item_id.txt')
+    save_file(user_trans_ids_dict,'./Recommend/data/check_data/new_user_id_with_original_id.txt')
+    save_file(output_item_trans_id, './Recommend/data/check_data/new_item_id_with_original_item_id.txt')
 
     #relation.txt
     uu_rel_and_ui_rel=[]
@@ -103,6 +105,10 @@ def generate_htr(entity_path=None,relation_path=None,pool_path=None,user_hist=No
             attr_ids.append(index)
             index += 1
     ATTR_ENTITY_COUNT=index
+    save_pickle(ATTR_ENTITY_COUNT,'./pickle/ATTR_COUNT.pkl')
+
+    RELATION_COUNT=RELATION_COUNT+ATTR_COUNT
+    save_pickle(RELATION_COUNT,'./pickle/RELATION_COUNT.pkl')
     ##(item,attr,rel)
     item_attr_rel = []
     for i in range(POOL_COUNT):
@@ -123,7 +129,7 @@ def generate_htr(entity_path=None,relation_path=None,pool_path=None,user_hist=No
     final_hrt=uu_rel_and_ui_rel+item_attr_rel
     print("Finish positive sampling, please wait for negative sampling...")
     #output
-    save_pickle(final_hrt,"./h_pt_r_ant.pkl")
+    save_pickle(final_hrt,"./Recommend/data/trans_data/h_pt_r_ant.pkl")
 
     all_rels=dict(uu_ui_rel,**attr_rel)
     # #save the relation id and name, and entity id and its name for validation
@@ -131,8 +137,8 @@ def generate_htr(entity_path=None,relation_path=None,pool_path=None,user_hist=No
     output_attr_entity_trans_id=dict()
     for key in attr_entity.keys():
         output_attr_entity_trans_id[key]=int(attr_entity[key])+USER_COUNT+ITEM_COUNT
-    save_file(output_attr_entity_trans_id,"./attr_entity_and_IDS_start_from "+str(USER_COUNT+ITEM_COUNT)+".txt")
-    save_file(all_rels, "./all_relations_andIDs.txt")
+    save_file(output_attr_entity_trans_id,"./Recommend/data/check_data/attr_entity_and_IDS_start_from "+str(USER_COUNT+ITEM_COUNT)+".txt")
+    save_file(all_rels, "./Recommend/data/check_data/all_relations_andIDs.txt")
 
     #negative sampling,final_hrt_list format: [(X,positive_Y,negative_Y,relation)]
     # final_hrt_list=negative_sampling(final_hrt,user_ids,item_ids,attr_ids,50)
@@ -160,6 +166,8 @@ def negative_sampling(final_hrt,USER_COUNT,ITEM_COUNT,ATTR_ENTITY_COUNT,epoches)
     item_user_rel=dict()
     attr_item_rel=dict()
 
+    # reverse_dict
+    attr_item_ids_dict=dict()
 
     #outputfile,the true value == index+(USER_COUNT or USER_COUNT+ITEM_COUNT)
     user_contain_user_ids_output=dict()
@@ -188,9 +196,12 @@ def negative_sampling(final_hrt,USER_COUNT,ITEM_COUNT,ATTR_ENTITY_COUNT,epoches)
     for i in range(ITEM_COUNT):
         item_contain_attr_ids[i]=[]
         item_attr_rel[i]=[]
+        item_user_rel[i]=[]
+
 
     for i in range(ATTR_ENTITY_COUNT):
         attr_item_rel[i]=[]
+        attr_item_ids_dict[i]=[]
     #get the linked tails for each head
     for i in range(len(final_hrt)):
         if final_hrt[i][0]<USER_COUNT:
@@ -199,7 +210,7 @@ def negative_sampling(final_hrt,USER_COUNT,ITEM_COUNT,ATTR_ENTITY_COUNT,epoches)
                 user_contain_user_ids[final_hrt[i][0]].append(final_hrt[i][1])
                 user_user_rel[final_hrt[i][0]].append((final_hrt[i][1],final_hrt[i][2]))
                 # reverse relation and entity
-                reverse_user_user_rel[final_hrt[i][1]].append((final_hrt[i][0],final_hrt[2]))
+                reverse_user_user_rel[final_hrt[i][1]].append((final_hrt[i][0],final_hrt[i][2]))
             else:
                 #user-item and relations
                 user_contain_item_ids[final_hrt[i][0]].append(final_hrt[i][1])
@@ -224,10 +235,16 @@ def negative_sampling(final_hrt,USER_COUNT,ITEM_COUNT,ATTR_ENTITY_COUNT,epoches)
     for key in item_contain_attr_ids.keys():
         item_contain_attr_ids_output[key] = list(np.array(item_contain_attr_ids[key])-USER_COUNT-ITEM_COUNT)
 
+
+
+    for key in item_contain_attr_ids_output.keys():
+        for value in item_contain_attr_ids_output[key]:
+            attr_item_ids_dict[value].append(key)
         #字典key，value编号是其index+USER_COUNT or USER_COUNT+ITEM_COUNT
     save_pickle(user_contain_user_ids_output,'./pickle/user_user_dict.pkl')
     save_pickle(user_contain_item_ids_output, './pickle/user_item_dict.pkl')
     save_pickle(item_contain_attr_ids_output, './pickle/item_attr_dict.pkl')
+    save_pickle(attr_item_ids_dict,'./pickle/attr_item_dict.pkl')
     #save relation dict
     save_pickle(user_user_rel,"./pickle/user_(user,rel)_rel.pkl")
     save_pickle(user_item_rel,"./pickle/user_(item,rel)_rel.pkl")
@@ -317,29 +334,23 @@ def negative_sampling(final_hrt,USER_COUNT,ITEM_COUNT,ATTR_ENTITY_COUNT,epoches)
                 # else:
                 #     pos_neg_htr.append(
                 #         (positive_sample[i][0], positive_sample[i][1], "No_neg", positive_sample[i][2]))
-        save_pickle(pos_neg_htr,"./train_set/h_pt_nt_r_ant_train_dataset_{}.pkl".format(str(ii)))
+        save_pickle(pos_neg_htr,"./Recommend/data/trans_data/h_pt_nt_r_ant_train_dataset_{}.pkl".format(str(ii)))
         final_pos_neg_htr.append(pos_neg_htr)
 
-    save_pickle(final_pos_neg_htr,"./train_set/h_pt_nt_r_ant_train_dataset_list.pkl")
+    save_pickle(final_pos_neg_htr,"./Recommend/data/trans_data/h_pt_nt_r_ant_train_dataset_list.pkl")
+
     return final_pos_neg_htr
 
 def generate_h_pt_nt1_nt2_for_rec(USER_COUNT,ITEM_COUNT,ATTR_ENTITY_COUNT):
-    final_hrt=load_pickle("./h_pt_r_ant.pkl")
-    user_contain_user_ids=load_pickle('./pickle/user_user_dict.pkl')
-    user_contain_item_ids=load_pickle('./pickle/user_item_dict.pkl')
+    final_hrt=load_pickle("./Recommend/data/trans_data/h_pt_r_ant.pkl")
     item_contain_attr_ids=load_pickle('./pickle/item_attr_dict.pkl')
 
     #import reversed graph
-    reverse_user_contain_user_ids=load_pickle('./pickle/reversed_user_user_dict.pkl')
-    item_user_ids_dict=load_pickle('./pickle/item_user_dict.pkl')
     attr_item_ids_dict=load_pickle('./pickle/attr_item_dict.pkl')
 
 
     #import negative dict
-
-    neg_user_user_ids=load_pickle('./pickle/neg_user_user_dict.pkl')
     neg_user_item_ids=load_pickle('./pickle/neg_user_item_dict.pkl')
-    neg_item_attr_ids=load_pickle('./pickle/neg_item_attr_dict.pkl')
 
     #add all the relations in (item, attr), dict[item][attr]=relation
     item_attr_contains_re=dict()
@@ -390,7 +401,7 @@ def generate_h_pt_nt1_nt2_for_rec(USER_COUNT,ITEM_COUNT,ATTR_ENTITY_COUNT):
             item_attr_r.append(temp_rel)
 
         train_for_rec_item = [user,p_item, n_item, n_item2, attr,user_item_r,item_attr_r]
-        save_pickle(train_for_rec_item, './train_set/v1-speed-train-{}.pickle'.format(iii))
+        save_pickle(train_for_rec_item, './Recommend/data/train_rec_data/v1-speed-train-{}.pickle'.format(iii))
         print('data', iii, 'end ... ', 'Length:', len(train_for_rec_item[0]), len(train_for_rec_item[1])
               , len(train_for_rec_item[2]), len(train_for_rec_item[3]),len(train_for_rec_item[4])
                 ,len(train_for_rec_item[5]),len(train_for_rec_item[6]))
