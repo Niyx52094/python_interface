@@ -9,5 +9,7 @@
 * 流程是用```generate_train_set.py```输入1_开头的五个文件，生成```user```,```item```,```attr```,```relation```的(h,t,r)图文件，总共会生成两个文件。
   * 一个文件形式为```(h,positive_item,netative_item,relation)``` 输入到```pretran_train_transD.py```预训练。
   * 另一个文件形式需要把蕴文没加的```relation```加进来，用来输入```./Recommend/Module.py```里面生成最终的embedding。目前正在做这一块。
+### 2021-03-28
+* Module.py 修改完毕
 
  
