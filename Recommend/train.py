@@ -34,10 +34,11 @@ def train(model_mlp, bs, max_epoch, optimizer1, observe, command, filename, purp
               pickle_file_length)
 
         model_mlp.train()
-
-        mix = list(zip(pickle_file[0], pickle_file[1], pickle_file[2], pickle_file[3], pickle_file[4]))
+        #user,positive_item,neg_item1,neg_item2,attr, 6:relation_between_user_and item,7:relation between item and attr
+        mix = list(zip(pickle_file[0], pickle_file[1], pickle_file[2], pickle_file[3], pickle_file[4]
+                       , pickle_file[5], pickle_file[6]))
         random.shuffle(mix)
-        I, II, III, IV, V = zip(*mix)
+        I, II, III, IV, V, VI, VII= zip(*mix)
 
         start = time.time()
         print('Starting {} epoch'.format(epoch))
@@ -58,29 +59,36 @@ def train(model_mlp, bs, max_epoch, optimizer1, observe, command, filename, purp
 
             user_list = torch.tensor(I[left:right])
             p_item_list = torch.tensor(np.array(II[left:right]) + cfg.USER_COUNT)
+            u_i_r_list=torch.tensor(VI[left:right])
             n_item_list = torch.tensor(np.array(III[left:right]) + cfg.USER_COUNT)
 
             attr_list = []
+            item_attr_rel_list = []
             n_item_list_2 = []
             index_ = []
             for attr_iter in range(left, right):
                 attr_list.append(torch.tensor(np.array(V[attr_iter]) + cfg.USER_COUNT + cfg.ITEM_COUNT))
+                item_attr_rel_list.append(torch.tensor(np.array(VII[attr_iter])))
                 if IV[attr_iter] is not None:
                     index_.append(attr_iter - left)
                     n_item_list_2.append(IV[attr_iter])
             attr_list = pad_sequence(attr_list, batch_first=True,
                                      padding_value=cfg.USER_COUNT + cfg.ITEM_COUNT + cfg.ATTR_COUNT)
-
-            result_pos = model_mlp.propagation_train(user_list, p_item_list, attr_list)[:, 0]
-            result_neg = model_mlp.propagation_train(user_list, n_item_list, attr_list)[:, 0]
+            item_attr_rel_list=pad_sequence(item_attr_rel_list,batch_first=True,
+                                        padding_value=cfg.KG_RELA_COUNT)
+            result_pos = model_mlp.propagation_train(user_list, p_item_list, attr_list,u_i_r_list,item_attr_rel_list)[:, 0]
+            result_neg = model_mlp.propagation_train(user_list, n_item_list, attr_list,u_i_r_list,item_attr_rel_list)[:, 0]
 
             diff1 = (result_pos - result_neg)
 
             attr_list_2 = attr_list[index_]
             user_list_2 = user_list[index_]
+            u_i_r_list_2=u_i_r_list[index_]
+            item_attr_rel_list_2=item_attr_rel_list[index_]
+
             n_item_list_2 = torch.tensor(np.array(n_item_list_2) + cfg.USER_COUNT)
             result_pos_2 = result_pos[index_]
-            result_neg_2 = model_mlp.propagation_train(user_list_2, n_item_list_2, attr_list_2)[:, 0]
+            result_neg_2 = model_mlp.propagation_train(user_list_2, n_item_list_2, attr_list_2,u_i_r_list_2,item_attr_rel_list_2)[:, 0]
 
             diff2 = (result_pos_2 - result_neg_2)
 
@@ -98,22 +106,24 @@ def train(model_mlp, bs, max_epoch, optimizer1, observe, command, filename, purp
             user_list = torch.tensor(I[left:right])
             user_list = torch.reshape(user_list, (right - left, 1))
             p_item_list = list(II[left:right])
-            ui_relation = torch.tensor([cfg.KG_USER_ITEM_RELATION_ID] * len(p_item_list))
+            ui_relation=torch.tensor(VI[left:right]) #2D dim(B，1）
+            # ui_relation = torch.tensor([cfg.KG_USER_ITEM_RELATION_ID] * len(p_item_list))
             ui_relation = torch.reshape(ui_relation, (right - left, 1))
             p_item_list = torch.tensor(np.array(p_item_list) + cfg.USER_COUNT)
             p_item_list = torch.reshape(p_item_list, (right - left, 1))
 
             attr_list = []
-            face_list = []
+            face_list = []#relation between item and attr
             # n_attr_list = []
             # ua_relation = []
             for attr_iter in range(left, right):
                 attr_list.append(torch.tensor(np.array(V[attr_iter]) + cfg.USER_COUNT + cfg.ITEM_COUNT))
-                face_list.append(torch.tensor([1] * len(list(V[attr_iter]))))
+                face_list.append(torch.tensor(np.array(VII[attr_iter]))) #2D(B,X)
+                # face_list.append(torch.tensor([1] * len(list(V[attr_iter]))))
                 # n_attr_list.append(torch.tensor(np.array(VI[attr_iter]) + USER_COUNT + ITEM_COUNT))
                 # ua_relation.append(torch.tensor([2] * len(list(VI[attr_iter]))))
-            attr_list = pad_sequence(attr_list, batch_first=True, padding_value=cfg.USER_COUNT + cfg.ITEM_COUNT + cfg.ATTR_COUNT)
-            face_list = pad_sequence(face_list, batch_first=True, padding_value=1)
+            attr_list = pad_sequence(attr_list, batch_first=True, padding_value=cfg.USER_COUNT + cfg.ITEM_COUNT + cfg.ATTR_COUNT)#2D(B,max_len)
+            face_list = pad_sequence(face_list, batch_first=True, padding_value=cfg.KG_RELA_COUNT)#2D(B,max_len)
             # n_attr_list = pad_sequence(n_attr_list, batch_first=True, padding_value=USER_COUNT+ITEM_COUNT+ATTR_COUNT)
             # ua_relation = pad_sequence(ua_relation, batch_first=True, padding_value=2)
 
@@ -121,6 +131,7 @@ def train(model_mlp, bs, max_epoch, optimizer1, observe, command, filename, purp
 
             p_item_list_1 = p_item_list[:, 0]
             p_item_list_a = list(p_item_list_1.numpy())
+            # 2d (B, max_len)
             p_item_list_a = torch.tensor([[item_id for iii in range(attr_list.size(1))] for item_id in p_item_list_a])
 
             n_item_list = np.array(III[left:right])
@@ -129,6 +140,7 @@ def train(model_mlp, bs, max_epoch, optimizer1, observe, command, filename, purp
 
             n_item_list_1 = n_item_list[:, 0]
             n_item_list_a = list(n_item_list_1.numpy())
+            #2d (B, max_len)
             n_item_list_a = torch.tensor([[item_id for iii in range(attr_list.size(1))] for item_id in n_item_list_a])
 
             user_list_a = user_list[:, 0]

@@ -44,9 +44,11 @@ def cuda_(var):
     return var.cuda() if torch.cuda.is_available() else var
 
 def get_sim(uia_embed):
+    size=uia_embed.size(1)
     ui_embed = uia_embed[:, :2, :]
     ia_embed = uia_embed[:, 2:, :]
-    a_embed = uia_embed[:, 3:, :]
+    i_embed = uia_embed[:,2:(size-2)/2+2,:]
+    a_embed = uia_embed[:, (size-2)/2+2:, :]
 
     # ui_embed[:, :, 64:] = 0
     # ia_embed[:, :, 64:] = 0
@@ -60,9 +62,14 @@ def get_sim(uia_embed):
     squared_sum_features_embedding_1 = (ia_embed * ia_embed).sum(dim=1, keepdim=True)
     out = out + 0.5 * (summed_features_embedding_squared_1 - squared_sum_features_embedding_1)
 
+    #attr*attr
     summed_features_embedding_squared_2 = a_embed.sum(dim=1, keepdim=True) ** 2
     squared_sum_features_embedding_2 = (a_embed * a_embed).sum(dim=1, keepdim=True)
     out = out - 0.5 * (summed_features_embedding_squared_2 - squared_sum_features_embedding_2)
+    #item*item
+    summed_features_embedding_squared_3 = i_embed.sum(dim=1, keepdim=True) ** 2
+    squared_sum_features_embedding_3 = (i_embed * i_embed).sum(dim=1, keepdim=True)
+    out = out - 0.5 * (summed_features_embedding_squared_3 - squared_sum_features_embedding_3)
 
     out = out.sum(dim=2, keepdim=False)
     return out

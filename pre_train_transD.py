@@ -1,7 +1,7 @@
 import torch
 import random
 import numpy as np
-from utils import *
+from util import *
 from openke.module.model import TransD
 from torch.autograd import Variable
 import torch.optim as optim
