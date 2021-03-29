@@ -115,6 +115,7 @@ class Graph_Rec(torch.nn.Module):
 
         self.sp_weight = dict()
         self.update_weight()
+
         self.all_embedding_eval = []
         torch.cuda.empty_cache()
         print("Initialize Weight Done...\n")
@@ -199,26 +200,26 @@ class Graph_Rec(torch.nn.Module):
             length = 1000
             current_id = 0
             n_fold = 0
-            while current_id < self.n_user:
+            while current_id < self.n_user+self.n_item+self.n_attr+1:
                 if current_id == 0:
-                    n_embedding = torch.sparse.mm(self.sp_weight[n_fold].cuda(), h_embedding)
+                    n_embedding = torch.sparse.mm(self.sp_weight[n_fold].to(cfg.device), h_embedding)
                 else:
-                    n_embedding = torch.cat((n_embedding, torch.sparse.mm(self.sp_weight[n_fold].cuda(), h_embedding)),
+                    n_embedding = torch.cat((n_embedding, torch.sparse.mm(self.sp_weight[n_fold].to(cfg.device), h_embedding)),
                                             0)
                 current_id = current_id + length
                 n_fold = n_fold + 1
-
-            current_id = self.n_user
-            while current_id < self.n_user + self.n_item:
-                n_embedding = torch.cat((n_embedding, torch.sparse.mm(self.sp_weight[n_fold].cuda(), h_embedding)), 0)
-                current_id = current_id + length
-                n_fold = n_fold + 1
-
-            current_id = self.n_user + self.n_item
-            while current_id < self.n_user + self.n_item + self.n_attr:
-                n_embedding = torch.cat((n_embedding, torch.sparse.mm(self.sp_weight[n_fold].cuda(), h_embedding)), 0)
-                current_id = current_id + length
-                n_fold = n_fold + 1
+            #
+            # current_id = self.n_user
+            # while current_id < self.n_user + self.n_item:
+            #     n_embedding = torch.cat((n_embedding, torch.sparse.mm(self.sp_weight[n_fold].to(cfg.device), h_embedding)), 0)
+            #     current_id = current_id + length
+            #     n_fold = n_fold + 1
+            #
+            # current_id = self.n_user + self.n_item
+            # while current_id < self.n_user + self.n_item + self.n_attr:
+            #     n_embedding = torch.cat((n_embedding, torch.sparse.mm(self.sp_weight[n_fold].to(cfg.device), h_embedding)), 0)
+            #     current_id = current_id + length
+            #     n_fold = n_fold + 1
 
             add_embedding = h_embedding + n_embedding
             if k == 1:
@@ -248,6 +249,7 @@ class Graph_Rec(torch.nn.Module):
             item_embed = all_embedding[k][item]
             attr_embed = all_embedding[k][attr]
 
+
             if self.map == 0:
                 user_embed = torch.reshape(user_embed, (user_embed.size(0), 1, user_embed.size(1)))
 
@@ -267,8 +269,8 @@ class Graph_Rec(torch.nn.Module):
                 item_embed = torch.reshape(item_embed, (item_embed.size(0), 1, item_embed.size(1)))
                 # expand to 3D
                 item_embed = item_embed.repeat(1, ia_r_transfer.size(1), 1)
-                i_transfer = i_transfer.repeat(1, ia_r_transfer.size(1), 1)
-                item_embed_a = self.kg_model._transfer(item_embed, i_transfer, ia_r_transfer)
+                ii_transfer = i_transfer.repeat(1, ia_r_transfer.size(1), 1)
+                item_embed_a = self.kg_model._transfer(item_embed, ii_transfer, ia_r_transfer)
                 item_embed_a = torch.nn.functional.normalize(item_embed_a, 2, -1)
                 # item_embed_a = torch.reshape(item_embed_a, (item_embed_a.size(0), 1, item_embed_a.size(1)))
 
@@ -346,22 +348,22 @@ class Graph_Rec(torch.nn.Module):
             n_fold = 0
             while current_id < self.n_user:
                 if current_id == 0:
-                    n_embedding = torch.sparse.mm(self.sp_weight[n_fold].cuda(), h_embedding)
+                    n_embedding = torch.sparse.mm(self.sp_weight[n_fold].to(cfg.device), h_embedding)
                 else:
-                    n_embedding = torch.cat((n_embedding, torch.sparse.mm(self.sp_weight[n_fold].cuda(), h_embedding)),
+                    n_embedding = torch.cat((n_embedding, torch.sparse.mm(self.sp_weight[n_fold].to(cfg.device), h_embedding)),
                                             0)
                 current_id = current_id + length
                 n_fold = n_fold + 1
 
             current_id = self.n_user
             while current_id < self.n_user + self.n_item:
-                n_embedding = torch.cat((n_embedding, torch.sparse.mm(self.sp_weight[n_fold].cuda(), h_embedding)), 0)
+                n_embedding = torch.cat((n_embedding, torch.sparse.mm(self.sp_weight[n_fold].to(cfg.device), h_embedding)), 0)
                 current_id = current_id + length
                 n_fold = n_fold + 1
 
             current_id = self.n_user + self.n_item
             while current_id < self.n_user + self.n_item + self.n_attr:
-                n_embedding = torch.cat((n_embedding, torch.sparse.mm(self.sp_weight[n_fold].cuda(), h_embedding)), 0)
+                n_embedding = torch.cat((n_embedding, torch.sparse.mm(self.sp_weight[n_fold].to(cfg.device), h_embedding)), 0)
                 current_id = current_id + length
                 n_fold = n_fold + 1
 
@@ -487,24 +489,24 @@ class Graph_Rec(torch.nn.Module):
                 n_fold = 0
                 while current_id < self.n_user:
                     if current_id == 0:
-                        n_embedding = torch.sparse.mm(self.sp_weight[n_fold].cuda(), h_embedding)
+                        n_embedding = torch.sparse.mm(self.sp_weight[n_fold].to(cfg.device), h_embedding)
                     else:
                         n_embedding = torch.cat(
-                            (n_embedding, torch.sparse.mm(self.sp_weight[n_fold].cuda(), h_embedding)),
+                            (n_embedding, torch.sparse.mm(self.sp_weight[n_fold].to(cfg.device), h_embedding)),
                             0)
                     current_id = current_id + length
                     n_fold = n_fold + 1
 
                 current_id = self.n_user
                 while current_id < self.n_user + self.n_item:
-                    n_embedding = torch.cat((n_embedding, torch.sparse.mm(self.sp_weight[n_fold].cuda(), h_embedding)),
+                    n_embedding = torch.cat((n_embedding, torch.sparse.mm(self.sp_weight[n_fold].to(cfg.device), h_embedding)),
                                             0)
                     current_id = current_id + length
                     n_fold = n_fold + 1
 
                 current_id = self.n_user + self.n_item
                 while current_id < self.n_user + self.n_item + self.n_attr:
-                    n_embedding = torch.cat((n_embedding, torch.sparse.mm(self.sp_weight[n_fold].cuda(), h_embedding)),
+                    n_embedding = torch.cat((n_embedding, torch.sparse.mm(self.sp_weight[n_fold].to(cfg.device), h_embedding)),
                                             0)
                     current_id = current_id + length
                     n_fold = n_fold + 1

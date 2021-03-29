@@ -37,14 +37,12 @@ def train(model_mlp, bs, max_epoch, optimizer1, observe, command, filename, purp
         pickle_file_length = len(pickle_file[0])
         print('Open pickle file: {} takes {} seconds'.format(pickle_file_path, time.time() - tt), '  Length:',
               pickle_file_length)
-
         model_mlp.train()
         #user,positive_item,neg_item1,neg_item2,attr, 6:relation_between_user_and item,7:relation between item and attr
         mix = list(zip(pickle_file[0], pickle_file[1], pickle_file[2], pickle_file[3], pickle_file[4]
                        , pickle_file[5], pickle_file[6]))
         random.shuffle(mix)
         I, II, III, IV, V, VI, VII= zip(*mix)
-
         start = time.time()
         print('Starting {} epoch'.format(epoch))
         epoch_loss = 0
@@ -62,11 +60,10 @@ def train(model_mlp, bs, max_epoch, optimizer1, observe, command, filename, purp
             optimizer1.zero_grad()
             left, right = iter_ * bs, min(pickle_file_length, (iter_ + 1) * bs)
 
-            user_list = torch.tensor(I[left:right])
-            p_item_list = torch.tensor(np.array(II[left:right]) + USER_COUNT)
-            u_i_r_list=torch.tensor(VI[left:right])
-            n_item_list = torch.tensor(np.array(III[left:right]) + USER_COUNT)
-
+            user_list = torch.tensor(I[left:right],dtype=torch.long)
+            p_item_list = torch.tensor(np.array(II[left:right]) + USER_COUNT,dtype=torch.long)
+            u_i_r_list=torch.tensor(VI[left:right],dtype=torch.long)
+            n_item_list = torch.tensor(np.array(III[left:right]) + USER_COUNT,dtype=torch.long)
             attr_list = []
             item_attr_rel_list = []
             n_item_list_2 = []
@@ -79,8 +76,10 @@ def train(model_mlp, bs, max_epoch, optimizer1, observe, command, filename, purp
                     n_item_list_2.append(IV[attr_iter])
             attr_list = pad_sequence(attr_list, batch_first=True,
                                      padding_value=USER_COUNT + ITEM_COUNT + ATTR_COUNT)
+            attr_list=attr_list.type(torch.LongTensor)
             item_attr_rel_list=pad_sequence(item_attr_rel_list,batch_first=True,
                                         padding_value=KG_RELA_COUNT)
+            item_attr_rel_list = item_attr_rel_list.type(torch.LongTensor)
             result_pos = model_mlp.propagation_train(user_list, p_item_list, attr_list,u_i_r_list,item_attr_rel_list)[:, 0]
             result_neg = model_mlp.propagation_train(user_list, n_item_list, attr_list,u_i_r_list,item_attr_rel_list)[:, 0]
 
@@ -91,7 +90,7 @@ def train(model_mlp, bs, max_epoch, optimizer1, observe, command, filename, purp
             u_i_r_list_2=u_i_r_list[index_]
             item_attr_rel_list_2=item_attr_rel_list[index_]
 
-            n_item_list_2 = torch.tensor(np.array(n_item_list_2) + USER_COUNT)
+            n_item_list_2 = torch.tensor(np.array(n_item_list_2) + USER_COUNT,dtype=torch.long)
             result_pos_2 = result_pos[index_]
             result_neg_2 = model_mlp.propagation_train(user_list_2, n_item_list_2, attr_list_2,u_i_r_list_2,item_attr_rel_list_2)[:, 0]
 
@@ -151,7 +150,14 @@ def train(model_mlp, bs, max_epoch, optimizer1, observe, command, filename, purp
             user_list_a = user_list[:, 0]
             user_list_a = list(user_list_a.numpy())
             user_list_a = torch.tensor([[user_id for iii in range(attr_list.size(1))] for user_id in user_list_a])
-
+            user_list=user_list.long()
+            p_item_list=p_item_list.long()
+            attr_list=attr_list.long()
+            p_item_list_a=p_item_list_a.long()
+            n_item_list=n_item_list.long()
+            n_item_list_a=n_item_list_a.long()
+            ui_relation=ui_relation.long()
+            face_list=face_list.long()
             positive_e = torch.cat((user_list, p_item_list, attr_list, p_item_list_a), dim=1)
             negative_e = torch.cat((user_list, n_item_list, attr_list, n_item_list_a), dim=1)
             positive_r = torch.cat((ui_relation, ui_relation, face_list, face_list), dim=1)
@@ -213,9 +219,82 @@ def train(model_mlp, bs, max_epoch, optimizer1, observe, command, filename, purp
         #     cur_acc = evaluate(model_mlp, epoch, filename, 0, purpose)
         #
         #
-        # ##embedding//
+        ##embedding//
         # if epoch % 1 == 0 and cur_acc > best_acc:
         #     best_acc = cur_acc
-        #     PATH = './Recommend/model/' + filename + '.pt'
-        #     torch.save(model_mlp.state_dict(), PATH) ##
-        #     print('Model saved at {}'.format(PATH))
+    PATH = './model/' + filename + '.pt'
+    torch.save(model_mlp.state_dict(), PATH) ##
+    print('Model saved at {}'.format(PATH))
+
+    ent_embed=model_mlp.kg_model.ent_embeddings.weight
+    rel_embed=model_mlp.kg_model.rel_embeddings.weight
+    ent_trans=model_mlp.kg_model.ent_transfer.weight
+    rel_trans=model_mlp.kg_model.rel_transfer.weight
+
+    h_embedding=ent_embed
+    all_embedding=[h_embedding]
+    #加入邻居节点
+    for k in range(1, cfg.ProP_n_Layer):
+        length = 1000
+        current_id = 0
+        n_fold = 0
+        while current_id < model_mlp.n_user+model_mlp.n_item+model_mlp.n_attr+1:
+            if current_id == 0:
+                n_embedding = torch.sparse.mm(model_mlp.sp_weight[n_fold].to(cfg.device), h_embedding)
+            else:
+                n_embedding = torch.cat((n_embedding, torch.sparse.mm(model_mlp.sp_weight[n_fold].to(cfg.device), h_embedding)),
+                                        0)
+            current_id = current_id + length
+            n_fold = n_fold + 1
+
+        add_embedding = h_embedding + n_embedding
+        if k == 1:
+            h_embedding = torch.nn.functional.relu(model_mlp.fc1(add_embedding))
+        elif k == 2:
+            h_embedding = torch.nn.functional.relu(model_mlp.fc2(add_embedding))
+        else:
+            h_embedding = torch.nn.functional.relu(model_mlp.fc3(add_embedding))
+        norm_embedding = torch.nn.functional.normalize(h_embedding, 2, -1)
+        all_embedding += [norm_embedding]
+
+    user_trans_ids_dict=load_pickle('./pickle/new_user_id_with_original_id.pkl')
+    item_trans_ids=load_pickle('./pickle/new_item_id_with_original_item_id.pkl')
+
+    new_ori_user_ids=dict()
+    new_ori_item_ids=dict()
+    output_embedding_file1=dict()
+    output_embedding_file_add_neb=dict()
+
+    for key,value in user_trans_ids_dict.items():
+        new_ori_user_ids[value]=key
+    for key,value in item_trans_ids.items():
+        new_ori_item_ids[value]=key
+        # print("new_ori_item_ids: key={} and value={}".format(value,key))
+
+    #get the embeding for entity original id
+    for i in range(model_mlp.n_user+model_mlp.n_item+model_mlp.n_attr):
+        if i<model_mlp.n_user:
+            output_embedding_file1[new_ori_user_ids[i]]=tuple(np.array(ent_embed[i].detach()))
+            output_embedding_file_add_neb[new_ori_user_ids[i]] = tuple(list(np.array(all_embedding[0][i].detach()))
+                                                                       +list(np.array(all_embedding[1][i].detach()))
+                                                                       +list(np.array(all_embedding[2][i].detach()))
+                                                                       +list(np.array(all_embedding[3][i].detach())))
+
+        elif i<model_mlp.n_user+model_mlp.n_item:
+            output_embedding_file1[new_ori_item_ids[i]] = tuple(np.array(ent_embed[i].detach()))
+            output_embedding_file_add_neb[new_ori_item_ids[i]] = tuple(list(np.array(all_embedding[0][i].detach()))
+                                                                       +list(np.array(all_embedding[1][i].detach()))
+                                                                       +list(np.array(all_embedding[2][i].detach()))
+                                                                       +list(np.array(all_embedding[3][i].detach())))
+        # else:
+        #     print("attr start")
+        #     output_embedding_file1[i+1]=tuple(np.array(ent_embed[i].detach()))
+        #     output_embedding_file_add_neb[i+1] = tuple(list(np.array(all_embedding[0][i].detach()))
+        #                                                                + list(np.array(all_embedding[1][i].detach()))
+        #                                                                + list(np.array(all_embedding[2][i].detach()))
+        #                                                                + list(np.array(all_embedding[3][i].detach())))
+    save_file(output_embedding_file1,'./Recommend/data/output_data/embedding_1.txt')
+    print("Successfully save the entity embedding to 'embedding_1.txt'>>>>>>>>>>>>>>>>>>>>>")
+    save_file(output_embedding_file_add_neb,'./Recommend/data/output_data/embedding_2.txt')
+    print("Successfully save the entity embedding with the neighbour embeding  to 'embedding_2.txt'>>>>>>>>>>>>>>>>>>>>>")
+

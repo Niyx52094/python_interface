@@ -47,8 +47,8 @@ def get_sim(uia_embed):
     size=uia_embed.size(1)
     ui_embed = uia_embed[:, :2, :]
     ia_embed = uia_embed[:, 2:, :]
-    i_embed = uia_embed[:,2:(size-2)/2+2,:]
-    a_embed = uia_embed[:, (size-2)/2+2:, :]
+    i_embed = uia_embed[:,2:(size-2)//2+2,:]
+    a_embed = uia_embed[:, (size-2)//2+2:, :]
 
     # ui_embed[:, :, 64:] = 0
     # ia_embed[:, :, 64:] = 0

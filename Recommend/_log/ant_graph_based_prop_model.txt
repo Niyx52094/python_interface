@@ -98,3 +98,3507 @@ Starting 48 epoch
 training loss 1: 0.0
 Starting 49 epoch
 training loss 1: 0.0
+Starting 0 epoch
+training loss 1: 0.0
+Starting 1 epoch
+training loss 1: 0.0
+Starting 2 epoch
+training loss 1: 0.0
+Starting 3 epoch
+training loss 1: 0.0
+Starting 4 epoch
+training loss 1: 0.0
+Starting 5 epoch
+training loss 1: 0.0
+Starting 6 epoch
+training loss 1: 0.0
+Starting 7 epoch
+training loss 1: 0.0
+Starting 8 epoch
+training loss 1: 0.0
+Starting 9 epoch
+training loss 1: 0.0
+Starting 10 epoch
+training loss 1: 0.0
+Starting 11 epoch
+training loss 1: 0.0
+Starting 12 epoch
+training loss 1: 0.0
+Starting 13 epoch
+training loss 1: 0.0
+Starting 14 epoch
+training loss 1: 0.0
+Starting 15 epoch
+training loss 1: 0.0
+Starting 16 epoch
+training loss 1: 0.0
+Starting 17 epoch
+training loss 1: 0.0
+Starting 18 epoch
+training loss 1: 0.0
+Starting 19 epoch
+training loss 1: 0.0
+Starting 20 epoch
+training loss 1: 0.0
+Starting 21 epoch
+training loss 1: 0.0
+Starting 22 epoch
+training loss 1: 0.0
+Starting 23 epoch
+training loss 1: 0.0
+Starting 24 epoch
+training loss 1: 0.0
+Starting 25 epoch
+training loss 1: 0.0
+Starting 26 epoch
+training loss 1: 0.0
+Starting 27 epoch
+training loss 1: 0.0
+Starting 28 epoch
+training loss 1: 0.0
+Starting 29 epoch
+training loss 1: 0.0
+Starting 30 epoch
+training loss 1: 0.0
+Starting 31 epoch
+training loss 1: 0.0
+Starting 32 epoch
+training loss 1: 0.0
+Starting 33 epoch
+training loss 1: 0.0
+Starting 34 epoch
+training loss 1: 0.0
+Starting 35 epoch
+training loss 1: 0.0
+Starting 36 epoch
+training loss 1: 0.0
+Starting 37 epoch
+training loss 1: 0.0
+Starting 38 epoch
+training loss 1: 0.0
+Starting 39 epoch
+training loss 1: 0.0
+Starting 40 epoch
+training loss 1: 0.0
+Starting 41 epoch
+training loss 1: 0.0
+Starting 42 epoch
+training loss 1: 0.0
+Starting 43 epoch
+training loss 1: 0.0
+Starting 44 epoch
+training loss 1: 0.0
+Starting 45 epoch
+training loss 1: 0.0
+Starting 46 epoch
+training loss 1: 0.0
+Starting 47 epoch
+training loss 1: 0.0
+Starting 48 epoch
+training loss 1: 0.0
+Starting 49 epoch
+training loss 1: 0.0
+Starting 0 epoch
+training loss 1: 0.0
+Starting 1 epoch
+training loss 1: 0.0
+Starting 2 epoch
+training loss 1: 0.0
+Starting 3 epoch
+training loss 1: 0.0
+Starting 4 epoch
+training loss 1: 0.0
+Starting 5 epoch
+training loss 1: 0.0
+Starting 6 epoch
+training loss 1: 0.0
+Starting 7 epoch
+training loss 1: 0.0
+Starting 8 epoch
+training loss 1: 0.0
+Starting 9 epoch
+training loss 1: 0.0
+Starting 10 epoch
+training loss 1: 0.0
+Starting 11 epoch
+training loss 1: 0.0
+Starting 12 epoch
+training loss 1: 0.0
+Starting 13 epoch
+training loss 1: 0.0
+Starting 14 epoch
+training loss 1: 0.0
+Starting 15 epoch
+training loss 1: 0.0
+Starting 16 epoch
+training loss 1: 0.0
+Starting 17 epoch
+training loss 1: 0.0
+Starting 18 epoch
+training loss 1: 0.0
+Starting 19 epoch
+training loss 1: 0.0
+Starting 20 epoch
+training loss 1: 0.0
+Starting 21 epoch
+training loss 1: 0.0
+Starting 22 epoch
+training loss 1: 0.0
+Starting 23 epoch
+training loss 1: 0.0
+Starting 24 epoch
+training loss 1: 0.0
+Starting 25 epoch
+training loss 1: 0.0
+Starting 26 epoch
+training loss 1: 0.0
+Starting 27 epoch
+training loss 1: 0.0
+Starting 28 epoch
+training loss 1: 0.0
+Starting 29 epoch
+training loss 1: 0.0
+Starting 30 epoch
+training loss 1: 0.0
+Starting 31 epoch
+training loss 1: 0.0
+Starting 32 epoch
+training loss 1: 0.0
+Starting 33 epoch
+training loss 1: 0.0
+Starting 34 epoch
+training loss 1: 0.0
+Starting 35 epoch
+training loss 1: 0.0
+Starting 36 epoch
+training loss 1: 0.0
+Starting 37 epoch
+training loss 1: 0.0
+Starting 38 epoch
+training loss 1: 0.0
+Starting 39 epoch
+training loss 1: 0.0
+Starting 40 epoch
+training loss 1: 0.0
+Starting 41 epoch
+training loss 1: 0.0
+Starting 42 epoch
+training loss 1: 0.0
+Starting 43 epoch
+training loss 1: 0.0
+Starting 44 epoch
+training loss 1: 0.0
+Starting 45 epoch
+training loss 1: 0.0
+Starting 46 epoch
+training loss 1: 0.0
+Starting 47 epoch
+training loss 1: 0.0
+Starting 48 epoch
+training loss 1: 0.0
+Starting 49 epoch
+training loss 1: 0.0
+Starting 0 epoch
+training loss 1: 0.0
+Starting 0 epoch
+training loss 1: 0.0
+Starting 0 epoch
+training loss 1: 0.0
+Starting 1 epoch
+training loss 1: 0.0
+Starting 2 epoch
+training loss 1: 0.0
+Starting 3 epoch
+training loss 1: 0.0
+Starting 4 epoch
+training loss 1: 0.0
+Starting 5 epoch
+training loss 1: 0.0
+Starting 6 epoch
+training loss 1: 0.0
+Starting 7 epoch
+training loss 1: 0.0
+Starting 8 epoch
+training loss 1: 0.0
+Starting 9 epoch
+training loss 1: 0.0
+Starting 10 epoch
+training loss 1: 0.0
+Starting 11 epoch
+training loss 1: 0.0
+Starting 12 epoch
+training loss 1: 0.0
+Starting 13 epoch
+training loss 1: 0.0
+Starting 14 epoch
+training loss 1: 0.0
+Starting 15 epoch
+training loss 1: 0.0
+Starting 16 epoch
+training loss 1: 0.0
+Starting 17 epoch
+training loss 1: 0.0
+Starting 18 epoch
+training loss 1: 0.0
+Starting 19 epoch
+training loss 1: 0.0
+Starting 20 epoch
+training loss 1: 0.0
+Starting 21 epoch
+training loss 1: 0.0
+Starting 22 epoch
+training loss 1: 0.0
+Starting 23 epoch
+training loss 1: 0.0
+Starting 24 epoch
+training loss 1: 0.0
+Starting 25 epoch
+training loss 1: 0.0
+Starting 26 epoch
+training loss 1: 0.0
+Starting 27 epoch
+training loss 1: 0.0
+Starting 28 epoch
+training loss 1: 0.0
+Starting 29 epoch
+training loss 1: 0.0
+Starting 30 epoch
+training loss 1: 0.0
+Starting 31 epoch
+training loss 1: 0.0
+Starting 32 epoch
+training loss 1: 0.0
+Starting 33 epoch
+training loss 1: 0.0
+Starting 34 epoch
+training loss 1: 0.0
+Starting 35 epoch
+training loss 1: 0.0
+Starting 36 epoch
+training loss 1: 0.0
+Starting 37 epoch
+training loss 1: 0.0
+Starting 38 epoch
+training loss 1: 0.0
+Starting 39 epoch
+training loss 1: 0.0
+Starting 40 epoch
+training loss 1: 0.0
+Starting 41 epoch
+training loss 1: 0.0
+Starting 42 epoch
+training loss 1: 0.0
+Starting 43 epoch
+training loss 1: 0.0
+Starting 44 epoch
+training loss 1: 0.0
+Starting 45 epoch
+training loss 1: 0.0
+Starting 46 epoch
+training loss 1: 0.0
+Starting 47 epoch
+training loss 1: 0.0
+Starting 48 epoch
+training loss 1: 0.0
+Starting 49 epoch
+training loss 1: 0.0
+Starting 0 epoch
+training loss 1: 0.0
+Starting 1 epoch
+training loss 1: 0.0
+Starting 2 epoch
+training loss 1: 0.0
+Starting 3 epoch
+training loss 1: 0.0
+Starting 4 epoch
+training loss 1: 0.0
+Starting 5 epoch
+training loss 1: 0.0
+Starting 6 epoch
+training loss 1: 0.0
+Starting 7 epoch
+training loss 1: 0.0
+Starting 8 epoch
+training loss 1: 0.0
+Starting 9 epoch
+training loss 1: 0.0
+Starting 10 epoch
+training loss 1: 0.0
+Starting 11 epoch
+training loss 1: 0.0
+Starting 12 epoch
+training loss 1: 0.0
+Starting 13 epoch
+training loss 1: 0.0
+Starting 14 epoch
+training loss 1: 0.0
+Starting 15 epoch
+training loss 1: 0.0
+Starting 16 epoch
+training loss 1: 0.0
+Starting 17 epoch
+training loss 1: 0.0
+Starting 18 epoch
+training loss 1: 0.0
+Starting 19 epoch
+training loss 1: 0.0
+Starting 20 epoch
+training loss 1: 0.0
+Starting 21 epoch
+training loss 1: 0.0
+Starting 22 epoch
+training loss 1: 0.0
+Starting 23 epoch
+training loss 1: 0.0
+Starting 24 epoch
+training loss 1: 0.0
+Starting 25 epoch
+training loss 1: 0.0
+Starting 26 epoch
+training loss 1: 0.0
+Starting 27 epoch
+training loss 1: 0.0
+Starting 28 epoch
+training loss 1: 0.0
+Starting 29 epoch
+training loss 1: 0.0
+Starting 30 epoch
+training loss 1: 0.0
+Starting 31 epoch
+training loss 1: 0.0
+Starting 32 epoch
+training loss 1: 0.0
+Starting 33 epoch
+training loss 1: 0.0
+Starting 34 epoch
+training loss 1: 0.0
+Starting 35 epoch
+training loss 1: 0.0
+Starting 36 epoch
+training loss 1: 0.0
+Starting 37 epoch
+training loss 1: 0.0
+Starting 38 epoch
+training loss 1: 0.0
+Starting 39 epoch
+training loss 1: 0.0
+Starting 40 epoch
+training loss 1: 0.0
+Starting 41 epoch
+training loss 1: 0.0
+Starting 42 epoch
+training loss 1: 0.0
+Starting 43 epoch
+training loss 1: 0.0
+Starting 44 epoch
+training loss 1: 0.0
+Starting 45 epoch
+training loss 1: 0.0
+Starting 46 epoch
+training loss 1: 0.0
+Starting 47 epoch
+training loss 1: 0.0
+Starting 48 epoch
+training loss 1: 0.0
+Starting 49 epoch
+training loss 1: 0.0
+Starting 0 epoch
+training loss 1: 0.0
+Starting 1 epoch
+training loss 1: 0.0
+Starting 2 epoch
+training loss 1: 0.0
+Starting 3 epoch
+training loss 1: 0.0
+Starting 4 epoch
+training loss 1: 0.0
+Starting 5 epoch
+training loss 1: 0.0
+Starting 6 epoch
+training loss 1: 0.0
+Starting 7 epoch
+training loss 1: 0.0
+Starting 8 epoch
+training loss 1: 0.0
+Starting 9 epoch
+training loss 1: 0.0
+Starting 10 epoch
+training loss 1: 0.0
+Starting 11 epoch
+training loss 1: 0.0
+Starting 12 epoch
+training loss 1: 0.0
+Starting 13 epoch
+training loss 1: 0.0
+Starting 14 epoch
+training loss 1: 0.0
+Starting 15 epoch
+training loss 1: 0.0
+Starting 16 epoch
+training loss 1: 0.0
+Starting 17 epoch
+training loss 1: 0.0
+Starting 18 epoch
+training loss 1: 0.0
+Starting 19 epoch
+training loss 1: 0.0
+Starting 20 epoch
+training loss 1: 0.0
+Starting 21 epoch
+training loss 1: 0.0
+Starting 22 epoch
+training loss 1: 0.0
+Starting 23 epoch
+training loss 1: 0.0
+Starting 24 epoch
+training loss 1: 0.0
+Starting 25 epoch
+training loss 1: 0.0
+Starting 26 epoch
+training loss 1: 0.0
+Starting 27 epoch
+training loss 1: 0.0
+Starting 28 epoch
+training loss 1: 0.0
+Starting 29 epoch
+training loss 1: 0.0
+Starting 30 epoch
+training loss 1: 0.0
+Starting 31 epoch
+training loss 1: 0.0
+Starting 32 epoch
+training loss 1: 0.0
+Starting 33 epoch
+training loss 1: 0.0
+Starting 34 epoch
+training loss 1: 0.0
+Starting 35 epoch
+training loss 1: 0.0
+Starting 36 epoch
+training loss 1: 0.0
+Starting 37 epoch
+training loss 1: 0.0
+Starting 38 epoch
+training loss 1: 0.0
+Starting 39 epoch
+training loss 1: 0.0
+Starting 40 epoch
+training loss 1: 0.0
+Starting 41 epoch
+training loss 1: 0.0
+Starting 42 epoch
+training loss 1: 0.0
+Starting 43 epoch
+training loss 1: 0.0
+Starting 44 epoch
+training loss 1: 0.0
+Starting 45 epoch
+training loss 1: 0.0
+Starting 46 epoch
+training loss 1: 0.0
+Starting 47 epoch
+training loss 1: 0.0
+Starting 48 epoch
+training loss 1: 0.0
+Starting 49 epoch
+training loss 1: 0.0
+Starting 0 epoch
+training loss 1: 0.0
+Starting 1 epoch
+training loss 1: 0.0
+Starting 2 epoch
+training loss 1: 0.0
+Starting 3 epoch
+training loss 1: 0.0
+Starting 4 epoch
+training loss 1: 0.0
+Starting 5 epoch
+training loss 1: 0.0
+Starting 6 epoch
+training loss 1: 0.0
+Starting 7 epoch
+training loss 1: 0.0
+Starting 8 epoch
+training loss 1: 0.0
+Starting 9 epoch
+training loss 1: 0.0
+Starting 10 epoch
+training loss 1: 0.0
+Starting 11 epoch
+training loss 1: 0.0
+Starting 12 epoch
+training loss 1: 0.0
+Starting 13 epoch
+training loss 1: 0.0
+Starting 14 epoch
+training loss 1: 0.0
+Starting 15 epoch
+training loss 1: 0.0
+Starting 16 epoch
+training loss 1: 0.0
+Starting 17 epoch
+training loss 1: 0.0
+Starting 18 epoch
+training loss 1: 0.0
+Starting 19 epoch
+training loss 1: 0.0
+Starting 20 epoch
+training loss 1: 0.0
+Starting 21 epoch
+training loss 1: 0.0
+Starting 22 epoch
+training loss 1: 0.0
+Starting 23 epoch
+training loss 1: 0.0
+Starting 24 epoch
+training loss 1: 0.0
+Starting 25 epoch
+training loss 1: 0.0
+Starting 26 epoch
+training loss 1: 0.0
+Starting 27 epoch
+training loss 1: 0.0
+Starting 28 epoch
+training loss 1: 0.0
+Starting 29 epoch
+training loss 1: 0.0
+Starting 30 epoch
+training loss 1: 0.0
+Starting 31 epoch
+training loss 1: 0.0
+Starting 32 epoch
+training loss 1: 0.0
+Starting 33 epoch
+training loss 1: 0.0
+Starting 34 epoch
+training loss 1: 0.0
+Starting 35 epoch
+training loss 1: 0.0
+Starting 36 epoch
+training loss 1: 0.0
+Starting 37 epoch
+training loss 1: 0.0
+Starting 38 epoch
+training loss 1: 0.0
+Starting 39 epoch
+training loss 1: 0.0
+Starting 40 epoch
+training loss 1: 0.0
+Starting 41 epoch
+training loss 1: 0.0
+Starting 42 epoch
+training loss 1: 0.0
+Starting 43 epoch
+training loss 1: 0.0
+Starting 44 epoch
+training loss 1: 0.0
+Starting 45 epoch
+training loss 1: 0.0
+Starting 46 epoch
+training loss 1: 0.0
+Starting 47 epoch
+training loss 1: 0.0
+Starting 48 epoch
+training loss 1: 0.0
+Starting 49 epoch
+training loss 1: 0.0
+Starting 0 epoch
+training loss 1: 0.0
+Starting 1 epoch
+training loss 1: 0.0
+Starting 2 epoch
+training loss 1: 0.0
+Starting 3 epoch
+training loss 1: 0.0
+Starting 4 epoch
+training loss 1: 0.0
+Starting 5 epoch
+training loss 1: 0.0
+Starting 6 epoch
+training loss 1: 0.0
+Starting 7 epoch
+training loss 1: 0.0
+Starting 8 epoch
+training loss 1: 0.0
+Starting 9 epoch
+training loss 1: 0.0
+Starting 10 epoch
+training loss 1: 0.0
+Starting 11 epoch
+training loss 1: 0.0
+Starting 12 epoch
+training loss 1: 0.0
+Starting 13 epoch
+training loss 1: 0.0
+Starting 14 epoch
+training loss 1: 0.0
+Starting 15 epoch
+training loss 1: 0.0
+Starting 16 epoch
+training loss 1: 0.0
+Starting 17 epoch
+training loss 1: 0.0
+Starting 18 epoch
+training loss 1: 0.0
+Starting 19 epoch
+training loss 1: 0.0
+Starting 20 epoch
+training loss 1: 0.0
+Starting 21 epoch
+training loss 1: 0.0
+Starting 22 epoch
+training loss 1: 0.0
+Starting 23 epoch
+training loss 1: 0.0
+Starting 24 epoch
+training loss 1: 0.0
+Starting 25 epoch
+training loss 1: 0.0
+Starting 26 epoch
+training loss 1: 0.0
+Starting 27 epoch
+training loss 1: 0.0
+Starting 28 epoch
+training loss 1: 0.0
+Starting 29 epoch
+training loss 1: 0.0
+Starting 30 epoch
+training loss 1: 0.0
+Starting 31 epoch
+training loss 1: 0.0
+Starting 32 epoch
+training loss 1: 0.0
+Starting 33 epoch
+training loss 1: 0.0
+Starting 34 epoch
+training loss 1: 0.0
+Starting 35 epoch
+training loss 1: 0.0
+Starting 36 epoch
+training loss 1: 0.0
+Starting 37 epoch
+training loss 1: 0.0
+Starting 38 epoch
+training loss 1: 0.0
+Starting 39 epoch
+training loss 1: 0.0
+Starting 40 epoch
+training loss 1: 0.0
+Starting 41 epoch
+training loss 1: 0.0
+Starting 42 epoch
+training loss 1: 0.0
+Starting 43 epoch
+training loss 1: 0.0
+Starting 44 epoch
+training loss 1: 0.0
+Starting 45 epoch
+training loss 1: 0.0
+Starting 46 epoch
+training loss 1: 0.0
+Starting 47 epoch
+training loss 1: 0.0
+Starting 48 epoch
+training loss 1: 0.0
+Starting 49 epoch
+training loss 1: 0.0
+Starting 0 epoch
+training loss 1: 0.0
+Starting 1 epoch
+training loss 1: 0.0
+Starting 2 epoch
+training loss 1: 0.0
+Starting 3 epoch
+training loss 1: 0.0
+Starting 4 epoch
+training loss 1: 0.0
+Starting 5 epoch
+training loss 1: 0.0
+Starting 6 epoch
+training loss 1: 0.0
+Starting 7 epoch
+training loss 1: 0.0
+Starting 8 epoch
+training loss 1: 0.0
+Starting 9 epoch
+training loss 1: 0.0
+Starting 10 epoch
+training loss 1: 0.0
+Starting 11 epoch
+training loss 1: 0.0
+Starting 12 epoch
+training loss 1: 0.0
+Starting 13 epoch
+training loss 1: 0.0
+Starting 14 epoch
+training loss 1: 0.0
+Starting 15 epoch
+training loss 1: 0.0
+Starting 16 epoch
+training loss 1: 0.0
+Starting 17 epoch
+training loss 1: 0.0
+Starting 18 epoch
+training loss 1: 0.0
+Starting 19 epoch
+training loss 1: 0.0
+Starting 20 epoch
+training loss 1: 0.0
+Starting 21 epoch
+training loss 1: 0.0
+Starting 22 epoch
+training loss 1: 0.0
+Starting 23 epoch
+training loss 1: 0.0
+Starting 24 epoch
+training loss 1: 0.0
+Starting 25 epoch
+training loss 1: 0.0
+Starting 26 epoch
+training loss 1: 0.0
+Starting 27 epoch
+training loss 1: 0.0
+Starting 28 epoch
+training loss 1: 0.0
+Starting 29 epoch
+training loss 1: 0.0
+Starting 30 epoch
+training loss 1: 0.0
+Starting 31 epoch
+training loss 1: 0.0
+Starting 32 epoch
+training loss 1: 0.0
+Starting 33 epoch
+training loss 1: 0.0
+Starting 34 epoch
+training loss 1: 0.0
+Starting 35 epoch
+training loss 1: 0.0
+Starting 36 epoch
+training loss 1: 0.0
+Starting 37 epoch
+training loss 1: 0.0
+Starting 38 epoch
+training loss 1: 0.0
+Starting 39 epoch
+training loss 1: 0.0
+Starting 40 epoch
+training loss 1: 0.0
+Starting 41 epoch
+training loss 1: 0.0
+Starting 42 epoch
+training loss 1: 0.0
+Starting 43 epoch
+training loss 1: 0.0
+Starting 44 epoch
+training loss 1: 0.0
+Starting 45 epoch
+training loss 1: 0.0
+Starting 46 epoch
+training loss 1: 0.0
+Starting 47 epoch
+training loss 1: 0.0
+Starting 48 epoch
+training loss 1: 0.0
+Starting 49 epoch
+training loss 1: 0.0
+Starting 0 epoch
+training loss 1: 0.0
+Starting 1 epoch
+training loss 1: 0.0
+Starting 2 epoch
+training loss 1: 0.0
+Starting 3 epoch
+training loss 1: 0.0
+Starting 4 epoch
+training loss 1: 0.0
+Starting 5 epoch
+training loss 1: 0.0
+Starting 6 epoch
+training loss 1: 0.0
+Starting 7 epoch
+training loss 1: 0.0
+Starting 8 epoch
+training loss 1: 0.0
+Starting 9 epoch
+training loss 1: 0.0
+Starting 10 epoch
+training loss 1: 0.0
+Starting 11 epoch
+training loss 1: 0.0
+Starting 12 epoch
+training loss 1: 0.0
+Starting 13 epoch
+training loss 1: 0.0
+Starting 14 epoch
+training loss 1: 0.0
+Starting 15 epoch
+training loss 1: 0.0
+Starting 16 epoch
+training loss 1: 0.0
+Starting 17 epoch
+training loss 1: 0.0
+Starting 18 epoch
+training loss 1: 0.0
+Starting 19 epoch
+training loss 1: 0.0
+Starting 20 epoch
+training loss 1: 0.0
+Starting 21 epoch
+training loss 1: 0.0
+Starting 22 epoch
+training loss 1: 0.0
+Starting 23 epoch
+training loss 1: 0.0
+Starting 24 epoch
+training loss 1: 0.0
+Starting 25 epoch
+training loss 1: 0.0
+Starting 26 epoch
+training loss 1: 0.0
+Starting 27 epoch
+training loss 1: 0.0
+Starting 28 epoch
+training loss 1: 0.0
+Starting 29 epoch
+training loss 1: 0.0
+Starting 30 epoch
+training loss 1: 0.0
+Starting 31 epoch
+training loss 1: 0.0
+Starting 32 epoch
+training loss 1: 0.0
+Starting 33 epoch
+training loss 1: 0.0
+Starting 34 epoch
+training loss 1: 0.0
+Starting 35 epoch
+training loss 1: 0.0
+Starting 36 epoch
+training loss 1: 0.0
+Starting 37 epoch
+training loss 1: 0.0
+Starting 38 epoch
+training loss 1: 0.0
+Starting 39 epoch
+training loss 1: 0.0
+Starting 40 epoch
+training loss 1: 0.0
+Starting 41 epoch
+training loss 1: 0.0
+Starting 42 epoch
+training loss 1: 0.0
+Starting 43 epoch
+training loss 1: 0.0
+Starting 44 epoch
+training loss 1: 0.0
+Starting 45 epoch
+training loss 1: 0.0
+Starting 46 epoch
+training loss 1: 0.0
+Starting 47 epoch
+training loss 1: 0.0
+Starting 48 epoch
+training loss 1: 0.0
+Starting 49 epoch
+training loss 1: 0.0
+Starting 0 epoch
+training loss 1: 0.0
+Starting 1 epoch
+training loss 1: 0.0
+Starting 2 epoch
+training loss 1: 0.0
+Starting 3 epoch
+training loss 1: 0.0
+Starting 4 epoch
+training loss 1: 0.0
+Starting 5 epoch
+training loss 1: 0.0
+Starting 6 epoch
+training loss 1: 0.0
+Starting 7 epoch
+training loss 1: 0.0
+Starting 8 epoch
+training loss 1: 0.0
+Starting 9 epoch
+training loss 1: 0.0
+Starting 10 epoch
+training loss 1: 0.0
+Starting 11 epoch
+training loss 1: 0.0
+Starting 12 epoch
+training loss 1: 0.0
+Starting 13 epoch
+training loss 1: 0.0
+Starting 14 epoch
+training loss 1: 0.0
+Starting 15 epoch
+training loss 1: 0.0
+Starting 16 epoch
+training loss 1: 0.0
+Starting 17 epoch
+training loss 1: 0.0
+Starting 18 epoch
+training loss 1: 0.0
+Starting 19 epoch
+training loss 1: 0.0
+Starting 20 epoch
+training loss 1: 0.0
+Starting 21 epoch
+training loss 1: 0.0
+Starting 22 epoch
+training loss 1: 0.0
+Starting 23 epoch
+training loss 1: 0.0
+Starting 24 epoch
+training loss 1: 0.0
+Starting 25 epoch
+training loss 1: 0.0
+Starting 26 epoch
+training loss 1: 0.0
+Starting 27 epoch
+training loss 1: 0.0
+Starting 28 epoch
+training loss 1: 0.0
+Starting 29 epoch
+training loss 1: 0.0
+Starting 30 epoch
+training loss 1: 0.0
+Starting 31 epoch
+training loss 1: 0.0
+Starting 32 epoch
+training loss 1: 0.0
+Starting 33 epoch
+training loss 1: 0.0
+Starting 34 epoch
+training loss 1: 0.0
+Starting 35 epoch
+training loss 1: 0.0
+Starting 36 epoch
+training loss 1: 0.0
+Starting 37 epoch
+training loss 1: 0.0
+Starting 38 epoch
+training loss 1: 0.0
+Starting 39 epoch
+training loss 1: 0.0
+Starting 40 epoch
+training loss 1: 0.0
+Starting 41 epoch
+training loss 1: 0.0
+Starting 42 epoch
+training loss 1: 0.0
+Starting 43 epoch
+training loss 1: 0.0
+Starting 44 epoch
+training loss 1: 0.0
+Starting 45 epoch
+training loss 1: 0.0
+Starting 46 epoch
+training loss 1: 0.0
+Starting 47 epoch
+training loss 1: 0.0
+Starting 48 epoch
+training loss 1: 0.0
+Starting 49 epoch
+training loss 1: 0.0
+Starting 0 epoch
+training loss 1: 0.0
+Starting 1 epoch
+training loss 1: 0.0
+Starting 2 epoch
+training loss 1: 0.0
+Starting 3 epoch
+training loss 1: 0.0
+Starting 4 epoch
+training loss 1: 0.0
+Starting 5 epoch
+training loss 1: 0.0
+Starting 6 epoch
+training loss 1: 0.0
+Starting 7 epoch
+training loss 1: 0.0
+Starting 8 epoch
+training loss 1: 0.0
+Starting 9 epoch
+training loss 1: 0.0
+Starting 10 epoch
+training loss 1: 0.0
+Starting 11 epoch
+training loss 1: 0.0
+Starting 12 epoch
+training loss 1: 0.0
+Starting 13 epoch
+training loss 1: 0.0
+Starting 14 epoch
+training loss 1: 0.0
+Starting 15 epoch
+training loss 1: 0.0
+Starting 16 epoch
+training loss 1: 0.0
+Starting 17 epoch
+training loss 1: 0.0
+Starting 18 epoch
+training loss 1: 0.0
+Starting 19 epoch
+training loss 1: 0.0
+Starting 20 epoch
+training loss 1: 0.0
+Starting 21 epoch
+training loss 1: 0.0
+Starting 22 epoch
+training loss 1: 0.0
+Starting 23 epoch
+training loss 1: 0.0
+Starting 24 epoch
+training loss 1: 0.0
+Starting 25 epoch
+training loss 1: 0.0
+Starting 26 epoch
+training loss 1: 0.0
+Starting 27 epoch
+training loss 1: 0.0
+Starting 28 epoch
+training loss 1: 0.0
+Starting 29 epoch
+training loss 1: 0.0
+Starting 30 epoch
+training loss 1: 0.0
+Starting 31 epoch
+training loss 1: 0.0
+Starting 32 epoch
+training loss 1: 0.0
+Starting 33 epoch
+training loss 1: 0.0
+Starting 34 epoch
+training loss 1: 0.0
+Starting 35 epoch
+training loss 1: 0.0
+Starting 36 epoch
+training loss 1: 0.0
+Starting 37 epoch
+training loss 1: 0.0
+Starting 38 epoch
+training loss 1: 0.0
+Starting 39 epoch
+training loss 1: 0.0
+Starting 40 epoch
+training loss 1: 0.0
+Starting 41 epoch
+training loss 1: 0.0
+Starting 42 epoch
+training loss 1: 0.0
+Starting 43 epoch
+training loss 1: 0.0
+Starting 44 epoch
+training loss 1: 0.0
+Starting 45 epoch
+training loss 1: 0.0
+Starting 46 epoch
+training loss 1: 0.0
+Starting 47 epoch
+training loss 1: 0.0
+Starting 48 epoch
+training loss 1: 0.0
+Starting 49 epoch
+training loss 1: 0.0
+Starting 0 epoch
+training loss 1: 0.0
+Starting 1 epoch
+training loss 1: 0.0
+Starting 2 epoch
+training loss 1: 0.0
+Starting 3 epoch
+training loss 1: 0.0
+Starting 4 epoch
+training loss 1: 0.0
+Starting 5 epoch
+training loss 1: 0.0
+Starting 6 epoch
+training loss 1: 0.0
+Starting 7 epoch
+training loss 1: 0.0
+Starting 8 epoch
+training loss 1: 0.0
+Starting 9 epoch
+training loss 1: 0.0
+Starting 10 epoch
+training loss 1: 0.0
+Starting 11 epoch
+training loss 1: 0.0
+Starting 12 epoch
+training loss 1: 0.0
+Starting 13 epoch
+training loss 1: 0.0
+Starting 14 epoch
+training loss 1: 0.0
+Starting 15 epoch
+training loss 1: 0.0
+Starting 16 epoch
+training loss 1: 0.0
+Starting 17 epoch
+training loss 1: 0.0
+Starting 18 epoch
+training loss 1: 0.0
+Starting 19 epoch
+training loss 1: 0.0
+Starting 20 epoch
+training loss 1: 0.0
+Starting 21 epoch
+training loss 1: 0.0
+Starting 22 epoch
+training loss 1: 0.0
+Starting 23 epoch
+training loss 1: 0.0
+Starting 24 epoch
+training loss 1: 0.0
+Starting 25 epoch
+training loss 1: 0.0
+Starting 26 epoch
+training loss 1: 0.0
+Starting 27 epoch
+training loss 1: 0.0
+Starting 28 epoch
+training loss 1: 0.0
+Starting 29 epoch
+training loss 1: 0.0
+Starting 30 epoch
+training loss 1: 0.0
+Starting 31 epoch
+training loss 1: 0.0
+Starting 32 epoch
+training loss 1: 0.0
+Starting 33 epoch
+training loss 1: 0.0
+Starting 34 epoch
+training loss 1: 0.0
+Starting 35 epoch
+training loss 1: 0.0
+Starting 36 epoch
+training loss 1: 0.0
+Starting 37 epoch
+training loss 1: 0.0
+Starting 38 epoch
+training loss 1: 0.0
+Starting 39 epoch
+training loss 1: 0.0
+Starting 40 epoch
+training loss 1: 0.0
+Starting 41 epoch
+training loss 1: 0.0
+Starting 42 epoch
+training loss 1: 0.0
+Starting 43 epoch
+training loss 1: 0.0
+Starting 44 epoch
+training loss 1: 0.0
+Starting 45 epoch
+training loss 1: 0.0
+Starting 46 epoch
+training loss 1: 0.0
+Starting 47 epoch
+training loss 1: 0.0
+Starting 48 epoch
+training loss 1: 0.0
+Starting 49 epoch
+training loss 1: 0.0
+Starting 0 epoch
+training loss 1: 0.0
+Starting 1 epoch
+training loss 1: 0.0
+Starting 2 epoch
+training loss 1: 0.0
+Starting 3 epoch
+training loss 1: 0.0
+Starting 4 epoch
+training loss 1: 0.0
+Starting 5 epoch
+training loss 1: 0.0
+Starting 6 epoch
+training loss 1: 0.0
+Starting 7 epoch
+training loss 1: 0.0
+Starting 8 epoch
+training loss 1: 0.0
+Starting 9 epoch
+training loss 1: 0.0
+Starting 10 epoch
+training loss 1: 0.0
+Starting 11 epoch
+training loss 1: 0.0
+Starting 12 epoch
+training loss 1: 0.0
+Starting 13 epoch
+training loss 1: 0.0
+Starting 14 epoch
+training loss 1: 0.0
+Starting 15 epoch
+training loss 1: 0.0
+Starting 16 epoch
+training loss 1: 0.0
+Starting 17 epoch
+training loss 1: 0.0
+Starting 18 epoch
+training loss 1: 0.0
+Starting 19 epoch
+training loss 1: 0.0
+Starting 20 epoch
+training loss 1: 0.0
+Starting 21 epoch
+training loss 1: 0.0
+Starting 22 epoch
+training loss 1: 0.0
+Starting 23 epoch
+training loss 1: 0.0
+Starting 24 epoch
+training loss 1: 0.0
+Starting 25 epoch
+training loss 1: 0.0
+Starting 26 epoch
+training loss 1: 0.0
+Starting 27 epoch
+training loss 1: 0.0
+Starting 28 epoch
+training loss 1: 0.0
+Starting 29 epoch
+training loss 1: 0.0
+Starting 30 epoch
+training loss 1: 0.0
+Starting 31 epoch
+training loss 1: 0.0
+Starting 32 epoch
+training loss 1: 0.0
+Starting 33 epoch
+training loss 1: 0.0
+Starting 34 epoch
+training loss 1: 0.0
+Starting 35 epoch
+training loss 1: 0.0
+Starting 36 epoch
+training loss 1: 0.0
+Starting 37 epoch
+training loss 1: 0.0
+Starting 38 epoch
+training loss 1: 0.0
+Starting 39 epoch
+training loss 1: 0.0
+Starting 40 epoch
+training loss 1: 0.0
+Starting 41 epoch
+training loss 1: 0.0
+Starting 42 epoch
+training loss 1: 0.0
+Starting 43 epoch
+training loss 1: 0.0
+Starting 44 epoch
+training loss 1: 0.0
+Starting 45 epoch
+training loss 1: 0.0
+Starting 46 epoch
+training loss 1: 0.0
+Starting 47 epoch
+training loss 1: 0.0
+Starting 48 epoch
+training loss 1: 0.0
+Starting 49 epoch
+training loss 1: 0.0
+Starting 0 epoch
+training loss 1: 0.0
+Starting 1 epoch
+training loss 1: 0.0
+Starting 2 epoch
+training loss 1: 0.0
+Starting 3 epoch
+training loss 1: 0.0
+Starting 4 epoch
+training loss 1: 0.0
+Starting 5 epoch
+training loss 1: 0.0
+Starting 6 epoch
+training loss 1: 0.0
+Starting 7 epoch
+training loss 1: 0.0
+Starting 8 epoch
+training loss 1: 0.0
+Starting 9 epoch
+training loss 1: 0.0
+Starting 10 epoch
+training loss 1: 0.0
+Starting 11 epoch
+training loss 1: 0.0
+Starting 12 epoch
+training loss 1: 0.0
+Starting 13 epoch
+training loss 1: 0.0
+Starting 14 epoch
+training loss 1: 0.0
+Starting 15 epoch
+training loss 1: 0.0
+Starting 16 epoch
+training loss 1: 0.0
+Starting 17 epoch
+training loss 1: 0.0
+Starting 18 epoch
+training loss 1: 0.0
+Starting 19 epoch
+training loss 1: 0.0
+Starting 20 epoch
+training loss 1: 0.0
+Starting 21 epoch
+training loss 1: 0.0
+Starting 22 epoch
+training loss 1: 0.0
+Starting 23 epoch
+training loss 1: 0.0
+Starting 24 epoch
+training loss 1: 0.0
+Starting 25 epoch
+training loss 1: 0.0
+Starting 26 epoch
+training loss 1: 0.0
+Starting 27 epoch
+training loss 1: 0.0
+Starting 28 epoch
+training loss 1: 0.0
+Starting 29 epoch
+training loss 1: 0.0
+Starting 30 epoch
+training loss 1: 0.0
+Starting 31 epoch
+training loss 1: 0.0
+Starting 32 epoch
+training loss 1: 0.0
+Starting 33 epoch
+training loss 1: 0.0
+Starting 34 epoch
+training loss 1: 0.0
+Starting 35 epoch
+training loss 1: 0.0
+Starting 36 epoch
+training loss 1: 0.0
+Starting 37 epoch
+training loss 1: 0.0
+Starting 38 epoch
+training loss 1: 0.0
+Starting 39 epoch
+training loss 1: 0.0
+Starting 40 epoch
+training loss 1: 0.0
+Starting 41 epoch
+training loss 1: 0.0
+Starting 42 epoch
+training loss 1: 0.0
+Starting 43 epoch
+training loss 1: 0.0
+Starting 44 epoch
+training loss 1: 0.0
+Starting 45 epoch
+training loss 1: 0.0
+Starting 46 epoch
+training loss 1: 0.0
+Starting 47 epoch
+training loss 1: 0.0
+Starting 48 epoch
+training loss 1: 0.0
+Starting 49 epoch
+training loss 1: 0.0
+Starting 0 epoch
+training loss 1: 0.0
+Starting 1 epoch
+training loss 1: 0.0
+Starting 2 epoch
+training loss 1: 0.0
+Starting 3 epoch
+training loss 1: 0.0
+Starting 4 epoch
+training loss 1: 0.0
+Starting 5 epoch
+training loss 1: 0.0
+Starting 6 epoch
+training loss 1: 0.0
+Starting 7 epoch
+training loss 1: 0.0
+Starting 8 epoch
+training loss 1: 0.0
+Starting 9 epoch
+training loss 1: 0.0
+Starting 10 epoch
+training loss 1: 0.0
+Starting 11 epoch
+training loss 1: 0.0
+Starting 12 epoch
+training loss 1: 0.0
+Starting 13 epoch
+training loss 1: 0.0
+Starting 14 epoch
+training loss 1: 0.0
+Starting 15 epoch
+training loss 1: 0.0
+Starting 16 epoch
+training loss 1: 0.0
+Starting 17 epoch
+training loss 1: 0.0
+Starting 18 epoch
+training loss 1: 0.0
+Starting 19 epoch
+training loss 1: 0.0
+Starting 20 epoch
+training loss 1: 0.0
+Starting 21 epoch
+training loss 1: 0.0
+Starting 22 epoch
+training loss 1: 0.0
+Starting 23 epoch
+training loss 1: 0.0
+Starting 24 epoch
+training loss 1: 0.0
+Starting 25 epoch
+training loss 1: 0.0
+Starting 26 epoch
+training loss 1: 0.0
+Starting 27 epoch
+training loss 1: 0.0
+Starting 28 epoch
+training loss 1: 0.0
+Starting 29 epoch
+training loss 1: 0.0
+Starting 30 epoch
+training loss 1: 0.0
+Starting 31 epoch
+training loss 1: 0.0
+Starting 32 epoch
+training loss 1: 0.0
+Starting 33 epoch
+training loss 1: 0.0
+Starting 34 epoch
+training loss 1: 0.0
+Starting 35 epoch
+training loss 1: 0.0
+Starting 36 epoch
+training loss 1: 0.0
+Starting 37 epoch
+training loss 1: 0.0
+Starting 38 epoch
+training loss 1: 0.0
+Starting 39 epoch
+training loss 1: 0.0
+Starting 40 epoch
+training loss 1: 0.0
+Starting 41 epoch
+training loss 1: 0.0
+Starting 42 epoch
+training loss 1: 0.0
+Starting 43 epoch
+training loss 1: 0.0
+Starting 44 epoch
+training loss 1: 0.0
+Starting 45 epoch
+training loss 1: 0.0
+Starting 46 epoch
+training loss 1: 0.0
+Starting 47 epoch
+training loss 1: 0.0
+Starting 48 epoch
+training loss 1: 0.0
+Starting 49 epoch
+training loss 1: 0.0
+Starting 0 epoch
+training loss 1: 0.0
+Starting 1 epoch
+training loss 1: 0.0
+Starting 2 epoch
+training loss 1: 0.0
+Starting 3 epoch
+training loss 1: 0.0
+Starting 4 epoch
+training loss 1: 0.0
+Starting 5 epoch
+training loss 1: 0.0
+Starting 6 epoch
+training loss 1: 0.0
+Starting 7 epoch
+training loss 1: 0.0
+Starting 8 epoch
+training loss 1: 0.0
+Starting 9 epoch
+training loss 1: 0.0
+Starting 10 epoch
+training loss 1: 0.0
+Starting 11 epoch
+training loss 1: 0.0
+Starting 12 epoch
+training loss 1: 0.0
+Starting 13 epoch
+training loss 1: 0.0
+Starting 14 epoch
+training loss 1: 0.0
+Starting 15 epoch
+training loss 1: 0.0
+Starting 16 epoch
+training loss 1: 0.0
+Starting 17 epoch
+training loss 1: 0.0
+Starting 18 epoch
+training loss 1: 0.0
+Starting 19 epoch
+training loss 1: 0.0
+Starting 20 epoch
+training loss 1: 0.0
+Starting 21 epoch
+training loss 1: 0.0
+Starting 22 epoch
+training loss 1: 0.0
+Starting 23 epoch
+training loss 1: 0.0
+Starting 24 epoch
+training loss 1: 0.0
+Starting 25 epoch
+training loss 1: 0.0
+Starting 26 epoch
+training loss 1: 0.0
+Starting 27 epoch
+training loss 1: 0.0
+Starting 28 epoch
+training loss 1: 0.0
+Starting 29 epoch
+training loss 1: 0.0
+Starting 30 epoch
+training loss 1: 0.0
+Starting 31 epoch
+training loss 1: 0.0
+Starting 32 epoch
+training loss 1: 0.0
+Starting 33 epoch
+training loss 1: 0.0
+Starting 34 epoch
+training loss 1: 0.0
+Starting 35 epoch
+training loss 1: 0.0
+Starting 36 epoch
+training loss 1: 0.0
+Starting 37 epoch
+training loss 1: 0.0
+Starting 38 epoch
+training loss 1: 0.0
+Starting 39 epoch
+training loss 1: 0.0
+Starting 40 epoch
+training loss 1: 0.0
+Starting 41 epoch
+training loss 1: 0.0
+Starting 42 epoch
+training loss 1: 0.0
+Starting 43 epoch
+training loss 1: 0.0
+Starting 44 epoch
+training loss 1: 0.0
+Starting 45 epoch
+training loss 1: 0.0
+Starting 46 epoch
+training loss 1: 0.0
+Starting 47 epoch
+training loss 1: 0.0
+Starting 48 epoch
+training loss 1: 0.0
+Starting 49 epoch
+training loss 1: 0.0
+Starting 0 epoch
+training loss 1: 0.0
+Starting 1 epoch
+training loss 1: 0.0
+Starting 2 epoch
+training loss 1: 0.0
+Starting 3 epoch
+training loss 1: 0.0
+Starting 4 epoch
+training loss 1: 0.0
+Starting 5 epoch
+training loss 1: 0.0
+Starting 6 epoch
+training loss 1: 0.0
+Starting 7 epoch
+training loss 1: 0.0
+Starting 8 epoch
+training loss 1: 0.0
+Starting 9 epoch
+training loss 1: 0.0
+Starting 10 epoch
+training loss 1: 0.0
+Starting 11 epoch
+training loss 1: 0.0
+Starting 12 epoch
+training loss 1: 0.0
+Starting 13 epoch
+training loss 1: 0.0
+Starting 14 epoch
+training loss 1: 0.0
+Starting 15 epoch
+training loss 1: 0.0
+Starting 16 epoch
+training loss 1: 0.0
+Starting 17 epoch
+training loss 1: 0.0
+Starting 18 epoch
+training loss 1: 0.0
+Starting 19 epoch
+training loss 1: 0.0
+Starting 20 epoch
+training loss 1: 0.0
+Starting 21 epoch
+training loss 1: 0.0
+Starting 22 epoch
+training loss 1: 0.0
+Starting 23 epoch
+training loss 1: 0.0
+Starting 24 epoch
+training loss 1: 0.0
+Starting 25 epoch
+training loss 1: 0.0
+Starting 26 epoch
+training loss 1: 0.0
+Starting 27 epoch
+training loss 1: 0.0
+Starting 28 epoch
+training loss 1: 0.0
+Starting 29 epoch
+training loss 1: 0.0
+Starting 30 epoch
+training loss 1: 0.0
+Starting 31 epoch
+training loss 1: 0.0
+Starting 32 epoch
+training loss 1: 0.0
+Starting 33 epoch
+training loss 1: 0.0
+Starting 34 epoch
+training loss 1: 0.0
+Starting 35 epoch
+training loss 1: 0.0
+Starting 36 epoch
+training loss 1: 0.0
+Starting 37 epoch
+training loss 1: 0.0
+Starting 38 epoch
+training loss 1: 0.0
+Starting 39 epoch
+training loss 1: 0.0
+Starting 40 epoch
+training loss 1: 0.0
+Starting 41 epoch
+training loss 1: 0.0
+Starting 42 epoch
+training loss 1: 0.0
+Starting 43 epoch
+training loss 1: 0.0
+Starting 44 epoch
+training loss 1: 0.0
+Starting 45 epoch
+training loss 1: 0.0
+Starting 46 epoch
+training loss 1: 0.0
+Starting 47 epoch
+training loss 1: 0.0
+Starting 48 epoch
+training loss 1: 0.0
+Starting 49 epoch
+training loss 1: 0.0
+Starting 0 epoch
+training loss 1: 0.0
+Starting 1 epoch
+training loss 1: 0.0
+Starting 2 epoch
+training loss 1: 0.0
+Starting 3 epoch
+training loss 1: 0.0
+Starting 4 epoch
+training loss 1: 0.0
+Starting 5 epoch
+training loss 1: 0.0
+Starting 6 epoch
+training loss 1: 0.0
+Starting 7 epoch
+training loss 1: 0.0
+Starting 8 epoch
+training loss 1: 0.0
+Starting 9 epoch
+training loss 1: 0.0
+Starting 10 epoch
+training loss 1: 0.0
+Starting 11 epoch
+training loss 1: 0.0
+Starting 12 epoch
+training loss 1: 0.0
+Starting 13 epoch
+training loss 1: 0.0
+Starting 14 epoch
+training loss 1: 0.0
+Starting 15 epoch
+training loss 1: 0.0
+Starting 16 epoch
+training loss 1: 0.0
+Starting 17 epoch
+training loss 1: 0.0
+Starting 18 epoch
+training loss 1: 0.0
+Starting 19 epoch
+training loss 1: 0.0
+Starting 20 epoch
+training loss 1: 0.0
+Starting 21 epoch
+training loss 1: 0.0
+Starting 22 epoch
+training loss 1: 0.0
+Starting 23 epoch
+training loss 1: 0.0
+Starting 24 epoch
+training loss 1: 0.0
+Starting 25 epoch
+training loss 1: 0.0
+Starting 26 epoch
+training loss 1: 0.0
+Starting 27 epoch
+training loss 1: 0.0
+Starting 28 epoch
+training loss 1: 0.0
+Starting 29 epoch
+training loss 1: 0.0
+Starting 30 epoch
+training loss 1: 0.0
+Starting 31 epoch
+training loss 1: 0.0
+Starting 32 epoch
+training loss 1: 0.0
+Starting 33 epoch
+training loss 1: 0.0
+Starting 34 epoch
+training loss 1: 0.0
+Starting 35 epoch
+training loss 1: 0.0
+Starting 36 epoch
+training loss 1: 0.0
+Starting 37 epoch
+training loss 1: 0.0
+Starting 38 epoch
+training loss 1: 0.0
+Starting 39 epoch
+training loss 1: 0.0
+Starting 40 epoch
+training loss 1: 0.0
+Starting 41 epoch
+training loss 1: 0.0
+Starting 42 epoch
+training loss 1: 0.0
+Starting 43 epoch
+training loss 1: 0.0
+Starting 44 epoch
+training loss 1: 0.0
+Starting 45 epoch
+training loss 1: 0.0
+Starting 46 epoch
+training loss 1: 0.0
+Starting 47 epoch
+training loss 1: 0.0
+Starting 48 epoch
+training loss 1: 0.0
+Starting 49 epoch
+training loss 1: 0.0
+Starting 0 epoch
+training loss 1: 1.8222253322601318
+Starting 1 epoch
+training loss 1: 1.5422152280807495
+Starting 2 epoch
+training loss 1: 0.722236692905426
+Starting 3 epoch
+training loss 1: 0.11640721559524536
+Starting 4 epoch
+training loss 1: 0.9214927554130554
+Starting 5 epoch
+training loss 1: 1.7824033498764038
+Starting 6 epoch
+training loss 1: 1.3212217092514038
+Starting 7 epoch
+training loss 1: 2.567669630050659
+Starting 8 epoch
+training loss 1: 0.4330924451351166
+Starting 9 epoch
+training loss 1: 0.08044792711734772
+Starting 10 epoch
+training loss 1: 0.5586072206497192
+Starting 11 epoch
+training loss 1: 0.21333661675453186
+Starting 12 epoch
+training loss 1: 0.3082868158817291
+Starting 13 epoch
+training loss 1: 0.8951696157455444
+Starting 14 epoch
+training loss 1: 0.22531218826770782
+Starting 15 epoch
+training loss 1: 0.15357360243797302
+Starting 16 epoch
+training loss 1: 0.6982957720756531
+Starting 17 epoch
+training loss 1: 1.266087293624878
+Starting 18 epoch
+training loss 1: 1.1364717483520508
+Starting 19 epoch
+training loss 1: 0.3062986731529236
+Starting 20 epoch
+training loss 1: 0.34253090620040894
+Starting 21 epoch
+training loss 1: 1.7354812622070312
+Starting 22 epoch
+training loss 1: 0.9583495259284973
+Starting 23 epoch
+training loss 1: 0.07125632464885712
+Starting 24 epoch
+training loss 1: 0.3139534592628479
+Starting 25 epoch
+training loss 1: 0.6139293313026428
+Starting 26 epoch
+training loss 1: 0.3390732407569885
+Starting 27 epoch
+training loss 1: 0.21687941253185272
+Starting 28 epoch
+training loss 1: 0.5083264112472534
+Starting 29 epoch
+training loss 1: 0.8629119992256165
+Starting 30 epoch
+training loss 1: 0.8249969482421875
+Starting 31 epoch
+training loss 1: 0.42586222290992737
+Starting 32 epoch
+training loss 1: 0.2079661339521408
+Starting 33 epoch
+training loss 1: 0.22741274535655975
+Starting 34 epoch
+training loss 1: 0.29262036085128784
+Starting 35 epoch
+training loss 1: 0.40900668501853943
+Starting 36 epoch
+training loss 1: 0.2596363127231598
+Starting 37 epoch
+training loss 1: 0.05119534581899643
+Starting 38 epoch
+training loss 1: 0.18676921725273132
+Starting 39 epoch
+training loss 1: 0.07240214198827744
+Starting 40 epoch
+training loss 1: 0.11233137547969818
+Starting 41 epoch
+training loss 1: 0.29375094175338745
+Starting 42 epoch
+training loss 1: 0.32081523537635803
+Starting 43 epoch
+training loss 1: 0.5759488940238953
+Starting 44 epoch
+training loss 1: 0.4404509663581848
+Starting 45 epoch
+training loss 1: 0.14628271758556366
+Starting 46 epoch
+training loss 1: 0.1346772015094757
+Starting 47 epoch
+training loss 1: 0.6169029474258423
+Starting 48 epoch
+training loss 1: 0.5028035640716553
+Starting 49 epoch
+training loss 1: 0.5953744649887085
+Starting 0 epoch
+training loss 1: 2.2528340816497803
+Starting 1 epoch
+training loss 1: 2.09818959236145
+Starting 2 epoch
+training loss 1: 3.2816309928894043
+Starting 3 epoch
+training loss 1: 1.4372270107269287
+Starting 4 epoch
+training loss 1: 2.084200382232666
+Starting 5 epoch
+training loss 1: 1.0098439455032349
+Starting 6 epoch
+training loss 1: 2.046647548675537
+Starting 7 epoch
+training loss 1: 0.02245093509554863
+Starting 8 epoch
+training loss 1: 0.6733757853507996
+Starting 9 epoch
+training loss 1: 1.3388211727142334
+Starting 10 epoch
+training loss 1: 2.297837018966675
+Starting 11 epoch
+training loss 1: 0.8685102462768555
+Starting 12 epoch
+training loss 1: 0.8120668530464172
+Starting 13 epoch
+training loss 1: 1.0609782934188843
+Starting 14 epoch
+training loss 1: 2.985046148300171
+Starting 15 epoch
+training loss 1: 1.4997540712356567
+Starting 16 epoch
+training loss 1: 1.2385791540145874
+Starting 17 epoch
+training loss 1: 3.9585564136505127
+Starting 18 epoch
+training loss 1: 1.144388198852539
+Starting 19 epoch
+training loss 1: 0.8565562963485718
+Starting 20 epoch
+training loss 1: 0.2662709653377533
+Starting 21 epoch
+training loss 1: 0.009910638444125652
+Starting 22 epoch
+training loss 1: 0.0044948635622859
+Starting 23 epoch
+training loss 1: 2.8347887992858887
+Starting 24 epoch
+training loss 1: 0.5793066024780273
+Starting 25 epoch
+training loss 1: 0.18322210013866425
+Starting 26 epoch
+training loss 1: 2.199256181716919
+Starting 27 epoch
+training loss 1: 1.9102141857147217
+Starting 28 epoch
+training loss 1: 0.179459810256958
+Starting 29 epoch
+training loss 1: 1.7247908115386963
+Starting 30 epoch
+training loss 1: 1.071563720703125
+Starting 31 epoch
+training loss 1: 0.5412539839744568
+Starting 32 epoch
+training loss 1: 0.35439783334732056
+Starting 33 epoch
+training loss 1: 0.45483559370040894
+Starting 34 epoch
+training loss 1: 1.1194770336151123
+Starting 35 epoch
+training loss 1: 2.546355724334717
+Starting 36 epoch
+training loss 1: 0.1282862424850464
+Starting 37 epoch
+training loss 1: 1.8961427211761475
+Starting 38 epoch
+training loss 1: 1.7298481464385986
+Starting 39 epoch
+training loss 1: 0.1885359287261963
+Starting 40 epoch
+training loss 1: 0.573503315448761
+Starting 41 epoch
+training loss 1: 0.4276188015937805
+Starting 42 epoch
+training loss 1: 2.4280123710632324
+Starting 43 epoch
+training loss 1: 0.28729355335235596
+Starting 44 epoch
+training loss 1: 3.170728921890259
+Starting 45 epoch
+training loss 1: 0.611620306968689
+Starting 46 epoch
+training loss 1: 1.8775752782821655
+Starting 47 epoch
+training loss 1: 0.08872420340776443
+Starting 48 epoch
+training loss 1: 0.6205441355705261
+Starting 49 epoch
+training loss 1: 0.1975421905517578
+Starting 0 epoch
+training loss 1: 2.79219388961792
+Starting 1 epoch
+training loss 1: 0.21405646204948425
+Starting 2 epoch
+training loss 1: 0.4797898232936859
+Starting 3 epoch
+training loss 1: 0.4486573338508606
+Starting 4 epoch
+training loss 1: 1.2987594604492188
+Starting 5 epoch
+training loss 1: 1.9969648122787476
+Starting 6 epoch
+training loss 1: 0.46274280548095703
+Starting 7 epoch
+training loss 1: 2.1182868480682373
+Starting 8 epoch
+training loss 1: 0.6488500833511353
+Starting 9 epoch
+training loss 1: 0.35167866945266724
+Starting 10 epoch
+training loss 1: 0.028646748512983322
+Starting 11 epoch
+training loss 1: 2.2476019859313965
+Starting 12 epoch
+training loss 1: 1.3074829578399658
+Starting 13 epoch
+training loss 1: 3.116936683654785
+Starting 14 epoch
+training loss 1: 0.05390888452529907
+Starting 15 epoch
+training loss 1: 0.5457851886749268
+Starting 16 epoch
+training loss 1: 0.18482515215873718
+Starting 17 epoch
+training loss 1: 0.6894544363021851
+Starting 18 epoch
+training loss 1: 0.08397403359413147
+Starting 19 epoch
+training loss 1: 0.4250805974006653
+Starting 20 epoch
+training loss 1: 1.2951347827911377
+Starting 21 epoch
+training loss 1: 1.9684053659439087
+Starting 22 epoch
+training loss 1: 0.15898887813091278
+Starting 23 epoch
+training loss 1: 0.1131683737039566
+Starting 24 epoch
+training loss 1: 1.0080139636993408
+Starting 25 epoch
+training loss 1: 0.7918730974197388
+Starting 26 epoch
+training loss 1: 0.22226771712303162
+Starting 27 epoch
+training loss 1: 0.6922062635421753
+Starting 28 epoch
+training loss 1: 0.09698250889778137
+Starting 29 epoch
+training loss 1: 0.34003859758377075
+Starting 30 epoch
+training loss 1: 0.1332206428050995
+Starting 31 epoch
+training loss 1: 1.2933051586151123
+Starting 32 epoch
+training loss 1: 0.6295465230941772
+Starting 33 epoch
+training loss 1: 0.4432350695133209
+Starting 34 epoch
+training loss 1: 0.31003352999687195
+Starting 35 epoch
+training loss 1: 2.0030105113983154
+Starting 36 epoch
+training loss 1: 0.6167890429496765
+Starting 37 epoch
+training loss 1: 0.8795963525772095
+Starting 38 epoch
+training loss 1: 0.1413152515888214
+Starting 39 epoch
+training loss 1: 0.2543668746948242
+Starting 40 epoch
+training loss 1: 0.36293020844459534
+Starting 41 epoch
+training loss 1: 1.7364885807037354
+Starting 42 epoch
+training loss 1: 0.35368669033050537
+Starting 43 epoch
+training loss 1: 0.6094122529029846
+Starting 44 epoch
+training loss 1: 0.19894233345985413
+Starting 45 epoch
+training loss 1: 0.9702554941177368
+Starting 46 epoch
+training loss 1: 0.13994139432907104
+Starting 47 epoch
+training loss 1: 0.3244529068470001
+Starting 48 epoch
+training loss 1: 0.10320164263248444
+Starting 49 epoch
+training loss 1: 0.14733903110027313
+Starting 0 epoch
+training loss 1: 2.3855700492858887
+Starting 1 epoch
+training loss 1: 0.182632714509964
+Starting 2 epoch
+training loss 1: 1.02363121509552
+Starting 3 epoch
+training loss 1: 0.0838787630200386
+Starting 4 epoch
+training loss 1: 1.5403043031692505
+Starting 5 epoch
+training loss 1: 0.8254672288894653
+Starting 6 epoch
+training loss 1: 1.9169641733169556
+Starting 7 epoch
+training loss 1: 0.20464332401752472
+Starting 8 epoch
+training loss 1: 1.4754059314727783
+Starting 9 epoch
+training loss 1: 0.13200180232524872
+Starting 10 epoch
+training loss 1: 0.4720539450645447
+Starting 11 epoch
+training loss 1: 0.5467321872711182
+Starting 12 epoch
+training loss 1: 0.036557577550411224
+Starting 13 epoch
+training loss 1: 0.4674008786678314
+Starting 14 epoch
+training loss 1: 0.40194615721702576
+Starting 15 epoch
+training loss 1: 0.5759066939353943
+Starting 16 epoch
+training loss 1: 3.5987021923065186
+Starting 17 epoch
+training loss 1: 0.24290195107460022
+Starting 18 epoch
+training loss 1: 1.1422773599624634
+Starting 19 epoch
+training loss 1: 0.1621042937040329
+Starting 20 epoch
+training loss 1: 1.272816777229309
+Starting 21 epoch
+training loss 1: 0.0992397889494896
+Starting 22 epoch
+training loss 1: 0.8344920873641968
+Starting 23 epoch
+training loss 1: 0.02743399515748024
+Starting 24 epoch
+training loss 1: 1.3258998394012451
+Starting 25 epoch
+training loss 1: 0.0475492961704731
+Starting 26 epoch
+training loss 1: 0.1266002655029297
+Starting 27 epoch
+training loss 1: 0.08191412687301636
+Starting 28 epoch
+training loss 1: 0.676743745803833
+Starting 29 epoch
+training loss 1: 0.40218329429626465
+Starting 30 epoch
+training loss 1: 0.04117278754711151
+Starting 31 epoch
+training loss 1: 0.1656004935503006
+Starting 32 epoch
+training loss 1: 0.2105259895324707
+Starting 33 epoch
+training loss 1: 0.42247694730758667
+Starting 34 epoch
+training loss 1: 0.021996477618813515
+Starting 35 epoch
+training loss 1: 0.05659293010830879
+Starting 36 epoch
+training loss 1: 0.08854734897613525
+Starting 37 epoch
+training loss 1: 0.1890852153301239
+Starting 38 epoch
+training loss 1: 0.07069606333971024
+Starting 39 epoch
+training loss 1: 0.4478888511657715
+Starting 40 epoch
+training loss 1: 0.18303348124027252
+Starting 41 epoch
+training loss 1: 0.1493774801492691
+Starting 42 epoch
+training loss 1: 0.3101808428764343
+Starting 43 epoch
+training loss 1: 0.2916092276573181
+Starting 44 epoch
+training loss 1: 0.09080110490322113
+Starting 45 epoch
+training loss 1: 0.012028740718960762
+Starting 46 epoch
+training loss 1: 1.4153859615325928
+Starting 47 epoch
+training loss 1: 0.14663943648338318
+Starting 48 epoch
+training loss 1: 0.48887211084365845
+Starting 49 epoch
+training loss 1: 0.10515991598367691
+Starting 0 epoch
+training loss 1: 0.46626171469688416
+Starting 1 epoch
+training loss 1: 3.3025269508361816
+Starting 2 epoch
+training loss 1: 0.09488437324762344
+Starting 3 epoch
+training loss 1: 2.598966598510742
+Starting 4 epoch
+training loss 1: 0.7953596115112305
+Starting 5 epoch
+training loss 1: 1.2076671123504639
+Starting 6 epoch
+training loss 1: 0.8846837282180786
+Starting 7 epoch
+training loss 1: 3.0025575160980225
+Starting 8 epoch
+training loss 1: 0.38989055156707764
+Starting 9 epoch
+training loss 1: 1.976991057395935
+Starting 10 epoch
+training loss 1: 1.498167872428894
+Starting 11 epoch
+training loss 1: 0.23077607154846191
+Starting 12 epoch
+training loss 1: 1.4342267513275146
+Starting 13 epoch
+training loss 1: 0.12503975629806519
+Starting 14 epoch
+training loss 1: 0.5028661489486694
+Starting 15 epoch
+training loss 1: 2.148041248321533
+Starting 16 epoch
+training loss 1: 0.06778812408447266
+Starting 17 epoch
+training loss 1: 0.8363953828811646
+Starting 18 epoch
+training loss 1: 1.14023756980896
+Starting 19 epoch
+training loss 1: 0.9953544735908508
+Starting 20 epoch
+training loss 1: 0.6986082792282104
+Starting 21 epoch
+training loss 1: 0.1113993301987648
+Starting 22 epoch
+training loss 1: 0.4930342137813568
+Starting 23 epoch
+training loss 1: 0.10084711015224457
+Starting 24 epoch
+training loss 1: 1.747321367263794
+Starting 25 epoch
+training loss 1: 0.7328742146492004
+Starting 26 epoch
+training loss 1: 0.6393929719924927
+Starting 27 epoch
+training loss 1: 3.0725760459899902
+Starting 28 epoch
+training loss 1: 0.012686638161540031
+Starting 29 epoch
+training loss 1: 0.7822252511978149
+Starting 30 epoch
+training loss 1: 0.021362580358982086
+Starting 31 epoch
+training loss 1: 0.5068197846412659
+Starting 32 epoch
+training loss 1: 1.8881372213363647
+Starting 33 epoch
+training loss 1: 0.07965706288814545
+Starting 34 epoch
+training loss 1: 0.9887915849685669
+Starting 35 epoch
+training loss 1: 0.18435229361057281
+Starting 36 epoch
+training loss 1: 1.8033908605575562
+Starting 37 epoch
+training loss 1: 0.06859453022480011
+Starting 38 epoch
+training loss 1: 0.9888863563537598
+Starting 39 epoch
+training loss 1: 0.26747483015060425
+Starting 40 epoch
+training loss 1: 1.1532140970230103
+Starting 41 epoch
+training loss 1: 0.1817355453968048
+Starting 42 epoch
+training loss 1: 1.74578857421875
+Starting 43 epoch
+training loss 1: 0.2515605688095093
+Starting 44 epoch
+training loss 1: 2.216193675994873
+Starting 45 epoch
+training loss 1: 0.2952984571456909
+Starting 46 epoch
+training loss 1: 0.12050306797027588
+Starting 47 epoch
+training loss 1: 1.303063988685608
+Starting 48 epoch
+training loss 1: 0.22722753882408142
+Starting 49 epoch
+training loss 1: 0.39791929721832275
+Starting 0 epoch
+training loss 1: 3.1009693145751953
+Starting 1 epoch
+training loss 1: 0.46030551195144653
+Starting 2 epoch
+training loss 1: 0.11879144608974457
+Starting 3 epoch
+training loss 1: 2.8897435665130615
+Starting 4 epoch
+training loss 1: 0.7381843328475952
+Starting 5 epoch
+training loss 1: 2.3017630577087402
+Starting 6 epoch
+training loss 1: 1.21597158908844
+Starting 7 epoch
+training loss 1: 0.7164164781570435
+Starting 8 epoch
+training loss 1: 3.752875566482544
+Starting 9 epoch
+training loss 1: 0.9657238125801086
+Starting 10 epoch
+training loss 1: 0.08584387600421906
+Starting 11 epoch
+training loss 1: 0.006422653794288635
+Starting 12 epoch
+training loss 1: 0.7234628796577454
+Starting 13 epoch
+training loss 1: 0.04520055651664734
+Starting 14 epoch
+training loss 1: 1.2921861410140991
+Starting 15 epoch
+training loss 1: 0.6850233674049377
+Starting 16 epoch
+training loss 1: 1.9518111944198608
+Starting 17 epoch
+training loss 1: 0.8452816009521484
+Starting 18 epoch
+training loss 1: 0.9508616328239441
+Starting 19 epoch
+training loss 1: 1.6219604015350342
+Starting 20 epoch
+training loss 1: 1.2177331447601318
+Starting 21 epoch
+training loss 1: 0.9970036745071411
+Starting 22 epoch
+training loss 1: 0.7100900411605835
+Starting 23 epoch
+training loss 1: 1.7467674016952515
+Starting 24 epoch
+training loss 1: 0.32961827516555786
+Starting 25 epoch
+training loss 1: 1.9747488498687744
+Starting 26 epoch
+training loss 1: 0.893480658531189
+Starting 27 epoch
+training loss 1: 3.089841842651367
+Starting 28 epoch
+training loss 1: 0.7540996670722961
+Starting 29 epoch
+training loss 1: 0.3417123854160309
+Starting 30 epoch
+training loss 1: 1.0494858026504517
+Starting 31 epoch
+training loss 1: 0.6734038591384888
+Starting 32 epoch
+training loss 1: 0.013667295686900616
+Starting 33 epoch
+training loss 1: 0.8074840307235718
+Starting 34 epoch
+training loss 1: 0.43444886803627014
+Starting 35 epoch
+training loss 1: 2.8482799530029297
+Starting 36 epoch
+training loss 1: 0.00746527686715126
+Starting 37 epoch
+training loss 1: 0.0763113796710968
+Starting 38 epoch
+training loss 1: 0.13013732433319092
+Starting 39 epoch
+training loss 1: 0.04605427756905556
+Starting 40 epoch
+training loss 1: 0.44459646940231323
+Starting 41 epoch
+training loss 1: 0.4777732491493225
+Starting 42 epoch
+training loss 1: 0.1540854424238205
+Starting 43 epoch
+training loss 1: 0.8970372080802917
+Starting 44 epoch
+training loss 1: 0.059171222150325775
+Starting 45 epoch
+training loss 1: 0.9916192889213562
+Starting 46 epoch
+training loss 1: 0.8792053461074829
+Starting 47 epoch
+training loss 1: 0.3795844614505768
+Starting 48 epoch
+training loss 1: 0.4355097711086273
+Starting 49 epoch
+training loss 1: 0.3135637640953064
+Starting 0 epoch
+training loss 1: 1.0005173683166504
+Starting 1 epoch
+training loss 1: 0.8867154121398926
+Starting 2 epoch
+training loss 1: 0.3868183493614197
+Starting 3 epoch
+training loss 1: 1.557344675064087
+Starting 4 epoch
+training loss 1: 0.22225622832775116
+Starting 5 epoch
+training loss 1: 1.675602912902832
+Starting 6 epoch
+training loss 1: 0.00438065966591239
+Starting 7 epoch
+training loss 1: 1.724366545677185
+Starting 8 epoch
+training loss 1: 1.4843151569366455
+Starting 9 epoch
+training loss 1: 1.4610915184020996
+Starting 10 epoch
+training loss 1: 1.7096176147460938
+Starting 11 epoch
+training loss 1: 1.9504711627960205
+Starting 12 epoch
+training loss 1: 0.11797572672367096
+Starting 13 epoch
+training loss 1: 0.8001708984375
+Starting 14 epoch
+training loss 1: 3.4804420471191406
+Starting 15 epoch
+training loss 1: 0.45727771520614624
+Starting 16 epoch
+training loss 1: 0.2016277313232422
+Starting 17 epoch
+training loss 1: 0.4871174395084381
+Starting 18 epoch
+training loss 1: 0.15509770810604095
+Starting 19 epoch
+training loss 1: 0.5706915259361267
+Starting 20 epoch
+training loss 1: 2.158223867416382
+Starting 21 epoch
+training loss 1: 0.1578136384487152
+Starting 22 epoch
+training loss 1: 0.37874624133110046
+Starting 23 epoch
+training loss 1: 1.5389105081558228
+Starting 24 epoch
+training loss 1: 1.0143802165985107
+Starting 25 epoch
+training loss 1: 0.18735329806804657
+Starting 26 epoch
+training loss 1: 0.5122749209403992
+Starting 27 epoch
+training loss 1: 3.8053646087646484
+Starting 28 epoch
+training loss 1: 0.2913329005241394
+Starting 29 epoch
+training loss 1: 0.3452032506465912
+Starting 30 epoch
+training loss 1: 0.8231361508369446
+Starting 31 epoch
+training loss 1: 1.59950852394104
+Starting 32 epoch
+training loss 1: 0.31589996814727783
+Starting 33 epoch
+training loss 1: 0.4128327965736389
+Starting 34 epoch
+training loss 1: 1.3779767751693726
+Starting 35 epoch
+training loss 1: 0.45430317521095276
+Starting 36 epoch
+training loss 1: 0.31589657068252563
+Starting 37 epoch
+training loss 1: 1.3772796392440796
+Starting 38 epoch
+training loss 1: 0.03917112573981285
+Starting 39 epoch
+training loss 1: 0.45589709281921387
+Starting 40 epoch
+training loss 1: 0.1484183520078659
+Starting 41 epoch
+training loss 1: 0.6581617593765259
+Starting 42 epoch
+training loss 1: 2.967855453491211
+Starting 43 epoch
+training loss 1: 0.656528651714325
+Starting 44 epoch
+training loss 1: 2.614025592803955
+Starting 45 epoch
+training loss 1: 1.5725160837173462
+Starting 46 epoch
+training loss 1: 2.6818087100982666
+Starting 47 epoch
+training loss 1: 0.6571148633956909
+Starting 48 epoch
+training loss 1: 0.7300912141799927
+Starting 49 epoch
+training loss 1: 0.2454875409603119
+Starting 0 epoch
+training loss 1: 1.0030862092971802
+Starting 1 epoch
+training loss 1: 0.1359303891658783
+Starting 2 epoch
+training loss 1: 0.27300161123275757
+Starting 3 epoch
+training loss 1: 0.24441269040107727
+Starting 4 epoch
+training loss 1: 1.5773417949676514
+Starting 5 epoch
+training loss 1: 1.2694687843322754
+Starting 6 epoch
+training loss 1: 0.6636348962783813
+Starting 7 epoch
+training loss 1: 3.113251209259033
+Starting 8 epoch
+training loss 1: 0.6697882413864136
+Starting 9 epoch
+training loss 1: 1.9650646448135376
+Starting 10 epoch
+training loss 1: 0.3508821427822113
+Starting 11 epoch
+training loss 1: 0.8828036189079285
+Starting 12 epoch
+training loss 1: 1.8100181818008423
+Starting 13 epoch
+training loss 1: 0.521476686000824
+Starting 14 epoch
+training loss 1: 1.0469629764556885
+Starting 15 epoch
+training loss 1: 0.7654275894165039
+Starting 16 epoch
+training loss 1: 0.3517233729362488
+Starting 17 epoch
+training loss 1: 0.18705706298351288
+Starting 18 epoch
+training loss 1: 0.3385988175868988
+Starting 19 epoch
+training loss 1: 0.49651145935058594
+Starting 20 epoch
+training loss 1: 1.6399116516113281
+Starting 21 epoch
+training loss 1: 0.5395585894584656
+Starting 22 epoch
+training loss 1: 0.09326103329658508
+Starting 23 epoch
+training loss 1: 0.20658457279205322
+Starting 24 epoch
+training loss 1: 1.481906533241272
+Starting 25 epoch
+training loss 1: 0.18487921357154846
+Starting 26 epoch
+training loss 1: 0.2908705174922943
+Starting 27 epoch
+training loss 1: 0.1807115375995636
+Starting 28 epoch
+training loss 1: 1.0166544914245605
+Starting 29 epoch
+training loss 1: 0.1578991711139679
+Starting 30 epoch
+training loss 1: 0.6236783266067505
+Starting 31 epoch
+training loss 1: 0.09589624404907227
+Starting 32 epoch
+training loss 1: 1.8987613916397095
+Starting 33 epoch
+training loss 1: 0.10921714454889297
+Starting 34 epoch
+training loss 1: 1.211987853050232
+Starting 35 epoch
+training loss 1: 0.6183981895446777
+Starting 36 epoch
+training loss 1: 0.49278688430786133
+Starting 37 epoch
+training loss 1: 0.06536862999200821
+Starting 38 epoch
+training loss 1: 1.2610218524932861
+Starting 39 epoch
+training loss 1: 1.1867716312408447
+Starting 40 epoch
+training loss 1: 1.179939866065979
+Starting 41 epoch
+training loss 1: 0.050137437880039215
+Starting 42 epoch
+training loss 1: 0.11154675483703613
+Starting 43 epoch
+training loss 1: 1.1706668138504028
+Starting 44 epoch
+training loss 1: 1.7938789129257202
+Starting 45 epoch
+training loss 1: 0.9806915521621704
+Starting 46 epoch
+training loss 1: 0.5817421078681946
+Starting 47 epoch
+training loss 1: 0.18849237263202667
+Starting 48 epoch
+training loss 1: 0.12255766242742538
+Starting 49 epoch
+training loss 1: 1.511483907699585
+Starting 0 epoch
+training loss 1: 2.2435810565948486
+Starting 1 epoch
+training loss 1: 1.2815431356430054
+Starting 2 epoch
+training loss 1: 0.06311119347810745
+Starting 3 epoch
+training loss 1: 2.7248222827911377
+Starting 4 epoch
+training loss 1: 1.908237099647522
+Starting 5 epoch
+training loss 1: 2.27842116355896
+Starting 6 epoch
+training loss 1: 2.156466245651245
+Starting 7 epoch
+training loss 1: 0.5984784364700317
+Starting 8 epoch
+training loss 1: 1.0087248086929321
+Starting 9 epoch
+training loss 1: 1.0595552921295166
+Starting 10 epoch
+training loss 1: 0.21961641311645508
+Starting 11 epoch
+training loss 1: 0.6441717743873596
+Starting 12 epoch
+training loss 1: 0.10217628628015518
+Starting 13 epoch
+training loss 1: 1.1433392763137817
+Starting 14 epoch
+training loss 1: 2.3307766914367676
+Starting 15 epoch
+training loss 1: 3.2172577381134033
+Starting 16 epoch
+training loss 1: 0.2588396668434143
+Starting 17 epoch
+training loss 1: 1.7597843408584595
+Starting 18 epoch
+training loss 1: 1.4142335653305054
+Starting 19 epoch
+training loss 1: 0.03435060381889343
+Starting 20 epoch
+training loss 1: 0.4077443480491638
+Starting 21 epoch
+training loss 1: 2.203984022140503
+Starting 22 epoch
+training loss 1: 0.41009455919265747
+Starting 23 epoch
+training loss 1: 0.1809394657611847
+Starting 24 epoch
+training loss 1: 1.3490521907806396
+Starting 25 epoch
+training loss 1: 0.31118109822273254
+Starting 26 epoch
+training loss 1: 1.1174206733703613
+Starting 27 epoch
+training loss 1: 1.2728933095932007
+Starting 28 epoch
+training loss 1: 0.5791621804237366
+Starting 29 epoch
+training loss 1: 0.11871132999658585
+Starting 30 epoch
+training loss 1: 1.4448797702789307
+Starting 31 epoch
+training loss 1: 0.14410683512687683
+Starting 32 epoch
+training loss 1: 0.072475865483284
+Starting 33 epoch
+training loss 1: 0.020234232768416405
+Starting 34 epoch
+training loss 1: 0.8016597032546997
+Starting 35 epoch
+training loss 1: 1.0986802577972412
+Starting 36 epoch
+training loss 1: 0.607228696346283
+Starting 37 epoch
+training loss 1: 0.5197479724884033
+Starting 38 epoch
+training loss 1: 0.0705750435590744
+Starting 39 epoch
+training loss 1: 0.6844624876976013
+Starting 40 epoch
+training loss 1: 0.3084224760532379
+Starting 41 epoch
+training loss 1: 0.19494864344596863
+Starting 42 epoch
+training loss 1: 0.14894337952136993
+Starting 43 epoch
+training loss 1: 0.049236513674259186
+Starting 44 epoch
+training loss 1: 0.274030864238739
+Starting 45 epoch
+training loss 1: 0.14641931653022766
+Starting 46 epoch
+training loss 1: 0.1499982327222824
+Starting 47 epoch
+training loss 1: 0.2036459743976593
+Starting 48 epoch
+training loss 1: 0.28600767254829407
+Starting 49 epoch
+training loss 1: 0.11450754106044769
+Starting 0 epoch
+training loss 1: 0.3439464569091797
+Starting 1 epoch
+training loss 1: 1.7831480503082275
+Starting 2 epoch
+training loss 1: 0.7100617289543152
+Starting 3 epoch
+training loss 1: 0.11223696172237396
+Starting 4 epoch
+training loss 1: 1.1604344844818115
+Starting 5 epoch
+training loss 1: 0.7423416376113892
+Starting 6 epoch
+training loss 1: 0.5380789637565613
+Starting 7 epoch
+training loss 1: 0.2620851695537567
+Starting 8 epoch
+training loss 1: 2.0848727226257324
+Starting 9 epoch
+training loss 1: 0.5272060632705688
+Starting 10 epoch
+training loss 1: 0.537280797958374
+Starting 11 epoch
+training loss 1: 0.4129607081413269
+Starting 12 epoch
+training loss 1: 3.0272340774536133
+Starting 13 epoch
+training loss 1: 0.5865892767906189
+Starting 14 epoch
+training loss 1: 0.06441671401262283
+Starting 15 epoch
+training loss 1: 0.6684406399726868
+Starting 16 epoch
+training loss 1: 1.7034635543823242
+Starting 17 epoch
+training loss 1: 1.0254582166671753
+Starting 18 epoch
+training loss 1: 0.8061979413032532
+Starting 19 epoch
+training loss 1: 0.691607654094696
+Starting 20 epoch
+training loss 1: 0.5032922029495239
+Starting 21 epoch
+training loss 1: 0.2241242676973343
+Starting 22 epoch
+training loss 1: 1.0202487707138062
+Starting 23 epoch
+training loss 1: 0.6064330339431763
+Starting 24 epoch
+training loss 1: 0.40945401787757874
+Starting 25 epoch
+training loss 1: 0.7533341646194458
+Starting 26 epoch
+training loss 1: 0.05583040043711662
+Starting 27 epoch
+training loss 1: 0.19323691725730896
+Starting 28 epoch
+training loss 1: 0.09466303884983063
+Starting 29 epoch
+training loss 1: 1.7821998596191406
+Starting 30 epoch
+training loss 1: 0.31944671273231506
+Starting 31 epoch
+training loss 1: 0.5971261858940125
+Starting 32 epoch
+training loss 1: 0.1661999225616455
+Starting 33 epoch
+training loss 1: 0.8214343786239624
+Starting 34 epoch
+training loss 1: 0.2938673198223114
+Starting 35 epoch
+training loss 1: 0.24533839523792267
+Starting 36 epoch
+training loss 1: 1.264431357383728
+Starting 37 epoch
+training loss 1: 0.6427335739135742
+Starting 38 epoch
+training loss 1: 0.36324065923690796
+Starting 39 epoch
+training loss 1: 0.22591564059257507
+Starting 40 epoch
+training loss 1: 0.14003045856952667
+Starting 41 epoch
+training loss 1: 0.2757861018180847
+Starting 42 epoch
+training loss 1: 2.3061156272888184
+Starting 43 epoch
+training loss 1: 0.3221280872821808
+Starting 44 epoch
+training loss 1: 1.1924502849578857
+Starting 45 epoch
+training loss 1: 0.21344277262687683
+Starting 46 epoch
+training loss 1: 0.37757962942123413
+Starting 47 epoch
+training loss 1: 0.22977447509765625
+Starting 48 epoch
+training loss 1: 0.3074643015861511
+Starting 49 epoch
+training loss 1: 0.21400132775306702
+Starting 0 epoch
+training loss 1: 3.407071352005005
+Starting 1 epoch
+training loss 1: 2.3532681465148926
+Starting 2 epoch
+training loss 1: 2.4143853187561035
+Starting 3 epoch
+training loss 1: 4.3532633781433105
+Starting 4 epoch
+training loss 1: 1.328979730606079
+Starting 5 epoch
+training loss 1: 1.0269101858139038
+Starting 6 epoch
+training loss 1: 0.2537115514278412
+Starting 7 epoch
+training loss 1: 1.3881365060806274
+Starting 8 epoch
+training loss 1: 0.6809085011482239
+Starting 9 epoch
+training loss 1: 0.39059609174728394
+Starting 10 epoch
+training loss 1: 0.2888029217720032
+Starting 11 epoch
+training loss 1: 0.7797533273696899
+Starting 12 epoch
+training loss 1: 0.40205758810043335
+Starting 13 epoch
+training loss 1: 0.3840010464191437
+Starting 14 epoch
+training loss 1: 0.35960957407951355
+Starting 15 epoch
+training loss 1: 0.9874223470687866
+Starting 16 epoch
+training loss 1: 0.3527902364730835
+Starting 17 epoch
+training loss 1: 0.19478149712085724
+Starting 18 epoch
+training loss 1: 1.8571672439575195
+Starting 19 epoch
+training loss 1: 0.8929713368415833
+Starting 20 epoch
+training loss 1: 0.37547698616981506
+Starting 21 epoch
+training loss 1: 1.0752347707748413
+Starting 22 epoch
+training loss 1: 0.38971441984176636
+Starting 23 epoch
+training loss 1: 3.6010239124298096
+Starting 24 epoch
+training loss 1: 1.8818994760513306
+Starting 25 epoch
+training loss 1: 0.569928765296936
+Starting 26 epoch
+training loss 1: 2.098121166229248
+Starting 27 epoch
+training loss 1: 2.5716326236724854
+Starting 28 epoch
+training loss 1: 0.5145093202590942
+Starting 29 epoch
+training loss 1: 0.34172895550727844
+Starting 30 epoch
+training loss 1: 0.4130679666996002
+Starting 31 epoch
+training loss 1: 0.05916161462664604
+Starting 32 epoch
+training loss 1: 0.8232607841491699
+Starting 33 epoch
+training loss 1: 0.861280620098114
+Starting 34 epoch
+training loss 1: 1.761636734008789
+Starting 35 epoch
+training loss 1: 1.3945053815841675
+Starting 36 epoch
+training loss 1: 0.19946376979351044
+Starting 37 epoch
+training loss 1: 0.7243221402168274
+Starting 38 epoch
+training loss 1: 0.0941411703824997
+Starting 39 epoch
+training loss 1: 1.075141191482544
+Starting 40 epoch
+training loss 1: 1.5425384044647217
+Starting 41 epoch
+training loss 1: 0.1412692368030548
+Starting 42 epoch
+training loss 1: 0.9002010226249695
+Starting 43 epoch
+training loss 1: 0.3888922333717346
+Starting 44 epoch
+training loss 1: 5.064177513122559
+Starting 45 epoch
+training loss 1: 1.7913026809692383
+Starting 46 epoch
+training loss 1: 1.4025228023529053
+Starting 47 epoch
+training loss 1: 2.296837091445923
+Starting 48 epoch
+training loss 1: 0.6965843439102173
+Starting 49 epoch
+training loss 1: 1.6262449026107788
+Starting 0 epoch
+training loss 1: 0.11139510571956635
+Starting 1 epoch
+training loss 1: 0.15336200594902039
+Starting 2 epoch
+training loss 1: 0.6221030354499817
+Starting 3 epoch
+training loss 1: 0.12702849507331848
+Starting 4 epoch
+training loss 1: 0.24755263328552246
+Starting 5 epoch
+training loss 1: 0.9374359250068665
+Starting 6 epoch
+training loss 1: 3.4146714210510254
+Starting 7 epoch
+training loss 1: 0.04801733046770096
+Starting 8 epoch
+training loss 1: 1.0636236667633057
+Starting 9 epoch
+training loss 1: 0.39330539107322693
+Starting 10 epoch
+training loss 1: 1.3144612312316895
+Starting 11 epoch
+training loss 1: 0.48817771673202515
+Starting 12 epoch
+training loss 1: 0.8213956952095032
+Starting 13 epoch
+training loss 1: 0.41482776403427124
+Starting 14 epoch
+training loss 1: 1.7668101787567139
+Starting 15 epoch
+training loss 1: 1.0406278371810913
+Starting 16 epoch
+training loss 1: 0.03418237715959549
+Starting 17 epoch
+training loss 1: 0.504124641418457
+Starting 18 epoch
+training loss 1: 1.055476188659668
+Starting 19 epoch
+training loss 1: 0.3619914948940277
+Starting 20 epoch
+training loss 1: 0.7457801699638367
+Starting 21 epoch
+training loss 1: 2.531736135482788
+Starting 22 epoch
+training loss 1: 0.6100332140922546
+Starting 23 epoch
+training loss 1: 0.16247886419296265
+Starting 24 epoch
+training loss 1: 0.5264822840690613
+Starting 25 epoch
+training loss 1: 0.5835583806037903
+Starting 26 epoch
+training loss 1: 0.5724501609802246
+Starting 27 epoch
+training loss 1: 1.6356996297836304
+Starting 28 epoch
+training loss 1: 2.1301674842834473
+Starting 29 epoch
+training loss 1: 0.6519601345062256
+Starting 30 epoch
+training loss 1: 1.6367849111557007
+Starting 31 epoch
+training loss 1: 0.9630942344665527
+Starting 32 epoch
+training loss 1: 0.23207290470600128
+Starting 33 epoch
+training loss 1: 0.8688796758651733
+Starting 34 epoch
+training loss 1: 0.9492530822753906
+Starting 35 epoch
+training loss 1: 1.0976588726043701
+Starting 36 epoch
+training loss 1: 0.2865278124809265
+Starting 37 epoch
+training loss 1: 1.3070285320281982
+Starting 38 epoch
+training loss 1: 0.12256195396184921
+Starting 39 epoch
+training loss 1: 0.32481032609939575
+Starting 40 epoch
+training loss 1: 0.631025493144989
+Starting 41 epoch
+training loss 1: 0.15300048887729645
+Starting 42 epoch
+training loss 1: 0.8547863960266113
+Starting 43 epoch
+training loss 1: 0.2206583321094513
+Starting 44 epoch
+training loss 1: 0.5795058012008667
+Starting 45 epoch
+training loss 1: 1.906375527381897
+Starting 46 epoch
+training loss 1: 1.2620316743850708
+Starting 47 epoch
+training loss 1: 0.4083288609981537
+Starting 48 epoch
+training loss 1: 0.8773800134658813
+Starting 49 epoch
+training loss 1: 0.2432502955198288
+Starting 0 epoch
+training loss 1: 1.082190752029419
+Starting 1 epoch
+training loss 1: 2.1490702629089355
+Starting 2 epoch
+training loss 1: 0.22802278399467468
+Starting 3 epoch
+training loss 1: 2.3586244583129883
+Starting 4 epoch
+training loss 1: 6.4854607582092285
+Starting 5 epoch
+training loss 1: 5.463550090789795
+Starting 6 epoch
+training loss 1: 1.8030179738998413
+Starting 7 epoch
+training loss 1: 0.15845848619937897
+Starting 8 epoch
+training loss 1: 0.0334429070353508
+Starting 9 epoch
+training loss 1: 0.571015477180481
+Starting 10 epoch
+training loss 1: 1.6074339151382446
+Starting 11 epoch
+training loss 1: 0.8150318264961243
+Starting 12 epoch
+training loss 1: 0.8882215619087219
+Starting 13 epoch
+training loss 1: 1.263393521308899
+Starting 14 epoch
+training loss 1: 1.293806791305542
+Starting 15 epoch
+training loss 1: 2.6755244731903076
+Starting 16 epoch
+training loss 1: 0.2768046259880066
+Starting 17 epoch
+training loss 1: 1.3876149654388428
+Starting 18 epoch
+training loss 1: 1.4734363555908203
+Starting 19 epoch
+training loss 1: 1.0600672960281372
+Starting 20 epoch
+training loss 1: 2.876354694366455
+Starting 21 epoch
+training loss 1: 0.6208378076553345
+Starting 22 epoch
+training loss 1: 2.81882381439209
+Starting 23 epoch
+training loss 1: 0.042227376252412796
+Starting 24 epoch
+training loss 1: 0.2086831033229828
+Starting 25 epoch
+training loss 1: 2.4178624153137207
+Starting 26 epoch
+training loss 1: 2.0679831504821777
+Starting 27 epoch
+training loss 1: 0.1799524426460266
+Starting 28 epoch
+training loss 1: 0.6686090230941772
+Starting 29 epoch
+training loss 1: 0.4040625989437103
+Starting 30 epoch
+training loss 1: 0.09105193614959717
+Starting 31 epoch
+training loss 1: 1.4927992820739746
+Starting 32 epoch
+training loss 1: 2.5311343669891357
+Starting 33 epoch
+training loss 1: 0.8435338139533997
+Starting 34 epoch
+training loss 1: 0.5146234631538391
+Starting 35 epoch
+training loss 1: 2.280620574951172
+Starting 36 epoch
+training loss 1: 1.2971551418304443
+Starting 37 epoch
+training loss 1: 0.7059513330459595
+Starting 38 epoch
+training loss 1: 1.413893461227417
+Starting 39 epoch
+training loss 1: 0.4728180766105652
+Starting 40 epoch
+training loss 1: 0.18960842490196228
+Starting 41 epoch
+training loss 1: 0.9132488369941711
+Starting 42 epoch
+training loss 1: 1.9416316747665405
+Starting 43 epoch
+training loss 1: 0.9776962399482727
+Starting 44 epoch
+training loss 1: 0.156762033700943
+Starting 45 epoch
+training loss 1: 0.8448993563652039
+Starting 46 epoch
+training loss 1: 1.1777927875518799
+Starting 47 epoch
+training loss 1: 0.07132723182439804
+Starting 48 epoch
+training loss 1: 0.6442247629165649
+Starting 49 epoch
+training loss 1: 0.5214112401008606
+Starting 0 epoch
+training loss 1: 1.5977345705032349
+Starting 1 epoch
+training loss 1: 0.19705730676651
+Starting 2 epoch
+training loss 1: 0.4148956835269928
+Starting 3 epoch
+training loss 1: 0.01443448942154646
+Starting 4 epoch
+training loss 1: 1.033765435218811
+Starting 5 epoch
+training loss 1: 0.12955282628536224
+Starting 6 epoch
+training loss 1: 1.112360954284668
+Starting 7 epoch
+training loss 1: 0.4244551658630371
+Starting 8 epoch
+training loss 1: 0.013979273848235607
+Starting 9 epoch
+training loss 1: 0.29508742690086365
+Starting 10 epoch
+training loss 1: 0.35340529680252075
+Starting 11 epoch
+training loss 1: 0.22195494174957275
+Starting 12 epoch
+training loss 1: 0.04614042863249779
+Starting 13 epoch
+training loss 1: 0.8252197504043579
+Starting 14 epoch
+training loss 1: 0.16378165781497955
+Starting 15 epoch
+training loss 1: 0.31294092535972595
+Starting 16 epoch
+training loss 1: 1.041446566581726
+Starting 17 epoch
+training loss 1: 0.13630157709121704
+Starting 18 epoch
+training loss 1: 0.7204920053482056
+Starting 19 epoch
+training loss 1: 0.7603448629379272
+Starting 20 epoch
+training loss 1: 0.03810575604438782
+Starting 21 epoch
+training loss 1: 0.1202634796500206
+Starting 22 epoch
+training loss 1: 0.6462689638137817
+Starting 23 epoch
+training loss 1: 0.4855390191078186
+Starting 24 epoch
+training loss 1: 0.11391768604516983
+Starting 25 epoch
+training loss 1: 0.010668369010090828
+Starting 26 epoch
+training loss 1: 0.47605371475219727
+Starting 27 epoch
+training loss 1: 0.007407709956169128
+Starting 28 epoch
+training loss 1: 0.01073054876178503
+Starting 29 epoch
+training loss 1: 0.13464660942554474
+Starting 30 epoch
+training loss 1: 0.018175829201936722
+Starting 31 epoch
+training loss 1: 0.0828494057059288
+Starting 32 epoch
+training loss 1: 0.19897986948490143
+Starting 33 epoch
+training loss 1: 0.09067533165216446
+Starting 34 epoch
+training loss 1: 0.2627609670162201
+Starting 35 epoch
+training loss 1: 0.16081231832504272
+Starting 36 epoch
+training loss 1: 0.1701609194278717
+Starting 37 epoch
+training loss 1: 0.15685704350471497
+Starting 38 epoch
+training loss 1: 0.5517796277999878
+Starting 39 epoch
+training loss 1: 0.036978889256715775
+Starting 40 epoch
+training loss 1: 0.024160737171769142
+Starting 41 epoch
+training loss 1: 0.05858780816197395
+Starting 42 epoch
+training loss 1: 0.40376630425453186
+Starting 43 epoch
+training loss 1: 0.10071156919002533
+Starting 44 epoch
+training loss 1: 0.5589261651039124
+Starting 45 epoch
+training loss 1: 0.28369832038879395
+Starting 46 epoch
+training loss 1: 0.15936025977134705
+Starting 47 epoch
+training loss 1: 0.07818231731653214
+Starting 48 epoch
+training loss 1: 0.5090304017066956
+Starting 49 epoch
+training loss 1: 0.3730751872062683
+Starting 0 epoch
+training loss 1: 0.22260145843029022
+Starting 1 epoch
+training loss 1: 1.6865692138671875
+Starting 2 epoch
+training loss 1: 4.197962760925293
+Starting 3 epoch
+training loss 1: 0.5144668817520142
+Starting 4 epoch
+training loss 1: 1.9336105585098267
+Starting 5 epoch
+training loss 1: 0.42883533239364624
+Starting 6 epoch
+training loss 1: 1.2827229499816895
+Starting 7 epoch
+training loss 1: 0.01080107968300581
+Starting 8 epoch
+training loss 1: 0.3255763351917267
+Starting 9 epoch
+training loss 1: 1.9412593841552734
+Starting 10 epoch
+training loss 1: 1.9000152349472046
+Starting 11 epoch
+training loss 1: 0.8311032056808472
+Starting 12 epoch
+training loss 1: 1.7970033884048462
+Starting 13 epoch
+training loss 1: 0.31282562017440796
+Starting 14 epoch
+training loss 1: 0.11033449321985245
+Starting 15 epoch
+training loss 1: 0.2546806037425995
+Starting 16 epoch
+training loss 1: 0.7296699285507202
+Starting 17 epoch
+training loss 1: 0.6087613105773926
+Starting 18 epoch
+training loss 1: 0.09717540442943573
+Starting 19 epoch
+training loss 1: 0.2944655120372772
+Starting 20 epoch
+training loss 1: 0.30702948570251465
+Starting 21 epoch
+training loss 1: 1.1944520473480225
+Starting 22 epoch
+training loss 1: 0.15317650139331818
+Starting 23 epoch
+training loss 1: 0.16987177729606628
+Starting 24 epoch
+training loss 1: 0.21713821589946747
+Starting 25 epoch
+training loss 1: 0.09668593108654022
+Starting 26 epoch
+training loss 1: 0.9864526987075806
+Starting 27 epoch
+training loss 1: 2.158129930496216
+Starting 28 epoch
+training loss 1: 0.9074611663818359
+Starting 29 epoch
+training loss 1: 0.17698384821414948
+Starting 30 epoch
+training loss 1: 0.18212874233722687
+Starting 31 epoch
+training loss 1: 0.7938717603683472
+Starting 32 epoch
+training loss 1: 0.1513475477695465
+Starting 33 epoch
+training loss 1: 0.31122034788131714
+Starting 34 epoch
+training loss 1: 1.0711719989776611
+Starting 35 epoch
+training loss 1: 0.45092758536338806
+Starting 36 epoch
+training loss 1: 0.698013961315155
+Starting 37 epoch
+training loss 1: 0.3283453583717346
+Starting 38 epoch
+training loss 1: 0.01972944103181362
+Starting 39 epoch
+training loss 1: 0.03527741879224777
+Starting 40 epoch
+training loss 1: 0.7166904211044312
+Starting 41 epoch
+training loss 1: 0.10415945947170258
+Starting 42 epoch
+training loss 1: 0.37878361344337463
+Starting 43 epoch
+training loss 1: 0.5252081155776978
+Starting 44 epoch
+training loss 1: 0.43614569306373596
+Starting 45 epoch
+training loss 1: 0.1959395855665207
+Starting 46 epoch
+training loss 1: 0.1423669308423996
+Starting 47 epoch
+training loss 1: 0.006854440085589886
+Starting 48 epoch
+training loss 1: 0.222588449716568
+Starting 49 epoch
+training loss 1: 0.16354058682918549
+Starting 0 epoch
+training loss 1: 4.880732536315918
+Starting 1 epoch
+training loss 1: 3.0416312217712402
+Starting 2 epoch
+training loss 1: 0.10439840704202652
+Starting 3 epoch
+training loss 1: 0.18438485264778137
+Starting 4 epoch
+training loss 1: 0.9577764272689819
+Starting 5 epoch
+training loss 1: 1.7036586999893188
+Starting 6 epoch
+training loss 1: 2.581707715988159
+Starting 7 epoch
+training loss 1: 1.7645152807235718
+Starting 8 epoch
+training loss 1: 0.2054746150970459
+Starting 9 epoch
+training loss 1: 0.5851870775222778
+Starting 10 epoch
+training loss 1: 1.3254042863845825
+Starting 11 epoch
+training loss 1: 1.3694545030593872
+Starting 12 epoch
+training loss 1: 0.9339860677719116
+Starting 13 epoch
+training loss 1: 0.4685424864292145
+Starting 14 epoch
+training loss 1: 0.4480365812778473
+Starting 15 epoch
+training loss 1: 0.14991870522499084
+Starting 16 epoch
+training loss 1: 0.9305570721626282
+Starting 17 epoch
+training loss 1: 0.050965625792741776
+Starting 18 epoch
+training loss 1: 0.26936018466949463
+Starting 19 epoch
+training loss 1: 0.07689119130373001
+Starting 20 epoch
+training loss 1: 1.0014359951019287
+Starting 21 epoch
+training loss 1: 0.029643505811691284
+Starting 22 epoch
+training loss 1: 1.397881269454956
+Starting 23 epoch
+training loss 1: 0.22688326239585876
+Starting 24 epoch
+training loss 1: 0.3318983316421509
+Starting 25 epoch
+training loss 1: 0.1583659052848816
+Starting 26 epoch
+training loss 1: 1.8670570850372314
+Starting 27 epoch
+training loss 1: 0.6189709901809692
+Starting 28 epoch
+training loss 1: 0.17492061853408813
+Starting 29 epoch
+training loss 1: 0.14952772855758667
+Starting 30 epoch
+training loss 1: 0.021169638261198997
+Starting 31 epoch
+training loss 1: 0.5622997283935547
+Starting 32 epoch
+training loss 1: 0.17140528559684753
+Starting 33 epoch
+training loss 1: 0.057798247784376144
+Starting 34 epoch
+training loss 1: 0.047069206833839417
+Starting 35 epoch
+training loss 1: 0.20862802863121033
+Starting 36 epoch
+training loss 1: 0.05450070649385452
+Starting 37 epoch
+training loss 1: 0.33554914593696594
+Starting 38 epoch
+training loss 1: 1.6497175693511963
+Starting 39 epoch
+training loss 1: 0.04409684240818024
+Starting 40 epoch
+training loss 1: 0.34458643198013306
+Starting 41 epoch
+training loss 1: 1.3295619487762451
+Starting 42 epoch
+training loss 1: 0.5236223936080933
+Starting 43 epoch
+training loss 1: 0.39353299140930176
+Starting 44 epoch
+training loss 1: 0.02212068811058998
+Starting 45 epoch
+training loss 1: 1.7972652912139893
+Starting 46 epoch
+training loss 1: 0.48959842324256897
+Starting 47 epoch
+training loss 1: 1.4556876420974731
+Starting 48 epoch
+training loss 1: 0.011942818760871887
+Starting 49 epoch
+training loss 1: 0.6167537569999695
+Starting 0 epoch
+training loss 1: 0.0
+Starting 1 epoch
+training loss 1: 0.0
+Starting 2 epoch
+training loss 1: 0.0
+Starting 3 epoch
+training loss 1: 0.0
+Starting 4 epoch
+training loss 1: 0.0
+Starting 5 epoch
+training loss 1: 0.0
+Starting 6 epoch
+training loss 1: 0.0
+Starting 7 epoch
+training loss 1: 0.0
+Starting 8 epoch
+training loss 1: 0.0
+Starting 9 epoch
+training loss 1: 0.0
+Starting 10 epoch
+training loss 1: 0.0
+Starting 11 epoch
+training loss 1: 0.0
+Starting 12 epoch
+training loss 1: 0.0
+Starting 13 epoch
+training loss 1: 0.0
+Starting 14 epoch
+training loss 1: 0.0
+Starting 15 epoch
+training loss 1: 0.0
+Starting 16 epoch
+training loss 1: 0.0
+Starting 17 epoch
+training loss 1: 0.0
+Starting 18 epoch
+training loss 1: 0.0
+Starting 19 epoch
+training loss 1: 0.0
+Starting 20 epoch
+training loss 1: 0.0
+Starting 21 epoch
+training loss 1: 0.0
+Starting 22 epoch
+training loss 1: 0.0
+Starting 23 epoch
+training loss 1: 0.0
+Starting 24 epoch
+training loss 1: 0.0
+Starting 25 epoch
+training loss 1: 0.0
+Starting 26 epoch
+training loss 1: 0.0
+Starting 27 epoch
+training loss 1: 0.0
+Starting 28 epoch
+training loss 1: 0.0
+Starting 29 epoch
+training loss 1: 0.0
+Starting 30 epoch
+training loss 1: 0.0
+Starting 31 epoch
+training loss 1: 0.0
+Starting 32 epoch
+training loss 1: 0.0
+Starting 33 epoch
+training loss 1: 0.0
+Starting 34 epoch
+training loss 1: 0.0
+Starting 35 epoch
+training loss 1: 0.0
+Starting 36 epoch
+training loss 1: 0.0
+Starting 37 epoch
+training loss 1: 0.0
+Starting 38 epoch
+training loss 1: 0.0
+Starting 39 epoch
+training loss 1: 0.0
+Starting 40 epoch
+training loss 1: 0.0
+Starting 41 epoch
+training loss 1: 0.0
+Starting 42 epoch
+training loss 1: 0.0
+Starting 43 epoch
+training loss 1: 0.0
+Starting 44 epoch
+training loss 1: 0.0
+Starting 45 epoch
+training loss 1: 0.0
+Starting 46 epoch
+training loss 1: 0.0
+Starting 47 epoch
+training loss 1: 0.0
+Starting 48 epoch
+training loss 1: 0.0
+Starting 49 epoch
+training loss 1: 0.0

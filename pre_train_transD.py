@@ -30,15 +30,14 @@ def pre_train(KG_EMBED_SIZE):
 
     optimizer = optim.SGD(transd.parameters(), lr=1.0, weight_decay=0)
     nepoch = 50
-    nbatch = 8
+    # nbatch=8 #测试
+    nbatch = 100 #实际使用这个
 
     dataset = load_pickle('./Recommend/data/trans_data/h_pt_nt_r_ant_train_dataset_0.pkl')
     batch_size = len(dataset) // nbatch
-
     #adjust round of batch
     if(batch_size*nbatch!=len(dataset)):
         nbatch=nbatch+1
-
     margin = nn.Parameter(torch.Tensor([4.0],device=cfg.device))
     print("pre-trainning TRANSD model.............")
 
@@ -56,6 +55,7 @@ def pre_train(KG_EMBED_SIZE):
             lef = batch * batch_size
             rig = min((batch + 1) * batch_size, len(dataset))
             batch_data = list(zip(*dataset[lef: rig]))
+            print(batch_data)
             H=torch.from_numpy(np.array(list(batch_data[0]) + list(batch_data[0])))
             H=H.type(torch.LongTensor)
             # H=H.to(cfg.device)

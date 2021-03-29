@@ -53,6 +53,9 @@ def generate_htr(entity_path=None,relation_path=None,pool_path=None,user_hist=No
     save_file(user_trans_ids_dict,'./Recommend/data/check_data/new_user_id_with_original_id.txt')
     save_file(output_item_trans_id, './Recommend/data/check_data/new_item_id_with_original_item_id.txt')
 
+    save_pickle(user_trans_ids_dict,'./pickle/new_user_id_with_original_id.pkl')
+    save_pickle(output_item_trans_id, './pickle/new_item_id_with_original_item_id.pkl')
+
     #relation.txt
     uu_rel_and_ui_rel=[]
     uu_ui_rel=dict()
@@ -368,7 +371,7 @@ def generate_h_pt_nt1_nt2_for_rec(USER_COUNT,ITEM_COUNT,ATTR_ENTITY_COUNT):
                     p_item.append(one_htr[1]-USER_COUNT)
                     user_item_r.append(one_htr[2])
                     #random_choose_negative_items
-                    n_item.append(random.sample(neg_user_item_ids[one_htr[0]],1))
+                    n_item.append(random.sample(neg_user_item_ids[one_htr[0]],1)[0])
 
                     #get the attribute in this item
                     attr_ids=item_contain_attr_ids[one_htr[1]-USER_COUNT]
