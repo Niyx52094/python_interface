@@ -2,7 +2,8 @@
 *
 * 那些“1_”开头的是根据要求写的一些测试文件，包括```entity```,```relation```,```pool```,```attr```,```histoty```
 * 
-* 其他的放在```Recommend/data/check_data```里面的文件是```all_relation_and IDS``` 和 ```attr_entity_IDS_start_from XX``` 是调用```generate_train_set.py```后生成的ID文件，用来做校验 * ```new_item_id_with_original_item_id.txt``` 和```new_user_id_with_original_id.txt```是把输入的id转换成都从0开始的新id。这里用来后续做对照
+* 其他的放在```Recommend/data/check_data```里面的文件是```all_relation_and IDS``` 和 ```attr_entity_IDS_start_from XX``` 是调用```generate_train_set.py```后生成的ID文件，用来做校验
+* ```new_item_id_with_original_item_id.txt``` 和```new_user_id_with_original_id.txt```是把输入的id转换成都从0开始的新id。这里用来后续做对照
 
 ## 流程
 * 打开```rec_main.py``` 运行，里面有输入五个文件的路径。可以把那五个文件的路径放进去。直接运行她就会自己跑完，但是最后一步输出还没写。
